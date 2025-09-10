@@ -1,0 +1,1632 @@
+{
+    "common": {
+        "website_name": "科學小編俠",
+        "analysis": {
+            "title": "我的分析",
+            "kpireach": "KPI分析",
+            "kpicompare": "KPI同期比",
+            "interact": {
+                "title": "互動",
+                "pea": "貼文成效表",
+                "theme": "主題分析",
+                "textCloud": "互動文字雲"
+            },
+            "audience": {
+                "title": "受眾",
+                "audience-analysis": "受眾分析",
+                "unfollow-fans-analysis": "退粉原因"
+            },
+            "onlinetime": "上線時間",
+            "competitors" : {
+                "title": "競品",
+                "ana": "競品比較",
+                "top-ana": "熱點 / 國內外TOP",
+                "top-ana-2": "熱點TOP",
+                "brenchmark": "產業Benchmark",
+                "brenchmark2": "產業Benchmark比較"
+            },
+            "atm": "社群價值",
+            "atm2": "臉書粉絲專頁價值ATM",
+            "warning": "巡查警報",
+            "ranking": {
+                "top-followed-count": "追蹤數",
+                "top-interact-rate": "回應率",
+                "top-post": "TOP回應貼文",
+                "top-atm": "價值排名",
+                "custom-page": "新增社群排行榜粉絲團"
+            }    
+        },
+        "cancel": "取消",
+        "save": "儲存",
+        "confirm_btn": "確定",
+        "view": "查看",
+        "delete": "刪除",
+        "start_analysis": "開始分析",
+        "no_data_text": "該區間沒有資料",
+        "setting_complelely": "設定成功",
+        "page_classify": [
+            { "index": "art_industry", "name": "藝文產業" },
+            { "index": "bank_finance", "name": "銀行、金融" },
+            { "index": "outdoor", "name": "戶外" },
+            { "index": "health_beauty", "name": "健康、美容" },
+            { "index": "books", "name": "書輯" },
+            { "index": "automobile", "name": "汽、機車、腳踏車" },
+            { "index": "cinema", "name": "電影院" },
+            { "index": "medical", "name": "醫療、醫療場所" },
+            { "index": "fashion", "name": "服飾、包包、配件" },
+            { "index": "organization", "name": "團體、組織" },
+            { "index": "drinks_alcohol", "name": "飲料、酒" },
+            { "index": "education", "name": "教育、學校" },
+            { "index": "electronics", "name": "電子" },
+            { "index": "entertainment", "name": "娛樂" },
+            { "index": "chemical", "name": "化學" },
+            { "index": "religion", "name": "宗教" },
+            { "index": "food_bakery", "name": "食品、烘焙" },
+            { "index": "furniture_home", "name": "家具、居家" },
+            { "index": "other_1", "name": "其他分類一" },
+            { "index": "games", "name": "遊戲" },
+            { "index": "hotel", "name": "飯店、民宿、旅館" },
+            { "index": "products_services", "name": "商品、服務" },
+            { "index": "insurance", "name": "保險" },
+            { "index": "information_tech", "name": "資訊科技" },
+            { "index": "jewelry_watches", "name": "珠寶、鐘錶" },
+            { "index": "media", "name": "媒體" },
+            { "index": "movie_industry", "name": "電影業" },
+            { "index": "museum", "name": "博物館" },
+            { "index": "pharma_biotech", "name": "製藥、生物科技" },
+            { "index": "place", "name": "場所" },
+            { "index": "publisher", "name": "出版社" },
+            { "index": "tools_equipment", "name": "工具、設備" },
+            { "index": "real_estate", "name": "房地產、建築" },
+            { "index": "restaurant", "name": "餐廳" },
+            { "index": "store_brand", "name": "商店、產業品牌" },
+            { "index": "other_4", "name": "其他分類四" },
+            { "index": "agriculture_mining", "name": "農、礦業" },
+            { "index": "telecom", "name": "電信" },
+            { "index": "transportation", "name": "運輸" },
+            { "index": "travel", "name": "旅遊" },
+            { "index": "tv_program", "name": "電視節目" },
+            { "index": "tv_station", "name": "電視台業" },
+            { "index": "other_2", "name": "其他分類二" },
+            { "index": "government", "name": "政府機關" },
+            { "index": "ad_agency", "name": "廣告媒體代理商" },
+            { "index": "political_party", "name": "政黨" },
+            { "index": "other_5", "name": "其他分類五" },
+            { "index": "public_figure", "name": "公眾人物" },
+            { "index": "dating", "name": "交友" },
+            { "index": "toys", "name": "玩具" },
+            { "index": "law", "name": "法律" },
+            { "index": "massage", "name": "按摩" },
+            { "index": "photography", "name": "攝影" },
+            { "index": "wedding", "name": "婚禮" },
+            { "index": "cleaning", "name": "清潔" },
+            { "index": "appliances", "name": "電器" },
+            { "index": "agency", "name": "經紀公司" },
+            { "index": "other_3", "name": "其他分類三" },
+            { "index": "movie", "name": "電影" },
+            { "index": "news_media", "name": "媒體、新聞" },
+            { "index": "tv_show", "name": "節目" },
+            { "index": "doctor", "name": "醫生" },
+            { "index": "children", "name": "兒童" },
+            { "index": "pets", "name": "寵物" },
+            { "index": "sports", "name": "運動類" },
+            { "index": "fun", "name": "趣味粉專" }
+        ],
+        "page_country": {"台灣":"tw","美國":"us","日本":"jp","韓國":"kr","(新南向)東南亞":"sa","英國":"gb","歐洲":"eu"}
+    },
+    "unloginHeader": {
+        "key_features": "特色功能",
+        "plan_and_price": "方案資訊",
+        "faq": "常見問題",
+        "contact_us": "聯絡我們",
+        "login": "登入",
+        "community_ranking": "社群排行榜",
+        "friends_mgm":"推薦領$400",
+        "dashboard": "主控檯",
+        "free_icon": "免費",
+        "side_buy_now": "立即<br>購買"
+    },
+    "header": {
+        "community_ranking": "社群排行榜",
+        "analysis": "我的分析",
+        "tutorial": "教學導覽",
+        "noti": {
+            "title": "通知",
+            "clear_all_noti": "清除全部通知",
+            "no_noti": "無任何通知"
+        },
+        "kerker": {
+            "show_kerker": "召喚ㄎㄎ",
+            "hide_kerker": "收回ㄎㄎ"
+        },
+        "login_register": "登入 / 註冊",
+        "member": {
+            "level_intro": "方案介紹",
+            "aboutus": "設定",
+            "logout": "登出"
+        },
+        "dashboard": "今日狀態"
+    },
+    "intro": {
+        "card1": {
+            "uppon_subtitle_": "用<span class=\"blue_big_text_\">科學</span>拯救<span class=\"blue_big_text_\">小編</span>的大<span class=\"blue_big_text_\">俠</span>",
+            "subtitle_": "AKA小編前途拯救器",
+            "btn": "立即免費試用30天"
+        },
+        "card2": {
+            "title": "台灣之光！全球領先的社群大數據診斷系統<br />您最佳的社群經營行動指南！！",
+            "kpi_reach": {
+                "title": "KPI分析",
+                "content": "同期比自我分析，數據解析!"
+            },
+            "ana": {
+                "title": "競品分析",
+                "content": "知己知彼 百戰百勝！"
+            },
+            "oag": {
+                "title": "操作分析指南",
+                "content": "貼文、主題、受眾一手包辦！"
+            },
+            "ranking": {
+                "title": "產業排行榜",
+                "content": "即時萃取產業數據脈動"
+            }
+        },
+        "card3": {
+            "title": "為什麼一定要擁有科學小編俠?!",
+            "slogan_cover": {
+                "section03-fonts-m": "社群<span class=\"primary-green fw-bold\">成功操作<span class=\"section03-fonts-m-hide\">&nbsp;</span>行動指南</span>",
+                "section03-rwd-text-column-1": "最專業的社群解析方法",
+                "section03-rwd-text-column-2": "免除破百小時繁雜數據計算",
+                "section03-rwd-text-center-1": "讓小編「",
+                "section03-rwd-text-center-2": "省時、省力、省工",
+                "section03-rwd-text-center-3": "」",
+                "section03-rwd-text-center-4": "更提供",
+                "section03-rwd-text-center-5": "專業行動指南",
+                "section03-rwd-text-center-6": "，告訴你該怎麼做！",
+                "section03-fonts-ml-1": "科學小編俠就是你",
+                "section03-fonts-ml-2": "最好的社群教練！"
+            },
+            "section03-policy": {
+                "title": "針對小編５大痛點的解決方針",
+                "section03-card": [
+                    {
+                        "title": "執行與KPI<br />不知道怎麼辦?",
+                        "content-1": "自我分析<br />KPI、同期比",
+                        "content-2": "數據分析<br />圖表好清晰"
+                    },
+                    {
+                        "title": "不知道粉絲<br />喜歡的內容？",
+                        "content-1": "價值計算機<br />互動文字雲",
+                        "content-2": "深度了解<br />粉絲的喜好！"
+                    },
+                    {
+                        "title": "演算法一直<br />變很苦惱?",
+                        "content-1": "熱點TOP",
+                        "content-2": "追上同業趨勢<br />不錯過<br />熱門話題點！"
+                    },
+                    {
+                        "title": "充斥殭屍粉<br />想要真粉絲?",
+                        "content-1": "受眾分析",
+                        "content-2": "幫你看透粉絲"
+                    },
+                    {
+                        "title": "社群成效<br />是什麼?<br />又如何執行？",
+                        "content-1": "獨門主題分析",
+                        "content-2": "擬定未來<br />貼文方針<br />有效助長成效"
+                    }
+                ]
+            }
+        },
+        "card4": {
+            "title": "小編俠功能亮點",
+            
+            "feature_list": [
+                {
+                    "title": "KPI分析",
+                    "content": "<span class=\"card4_b_text\">各指標KPI達成率 &同期比</span><br />自我分析，提供完善數據解析!"
+                },
+                {
+                    "title": "操作分析指南",
+                    "content": "<span class=\"card4_b_text\">主題分析、互動文字雲、貼文成效表、 受眾分析、退粉原因。</span><br />深度了解粉絲團、貼文、<br />粉絲們的狀況讓你一手包辦 ! "
+                },
+                {
+                    "title": "競品分析",
+                    "content": "<span class=\"card4_b_text\">競品比較、國內外TOP 10、產業BenchMark。</span><br />了解同產業TA習性與喜好，<br />引進最新產業創意，知己知彼，百戰百勝"
+                },
+                {
+                    "title": "產業排行榜",
+                    "content": "<span class=\"card4_b_text\">產業高低粉絲、回應率排序<br />產業TOP回應貼文、粉絲團價值排名</span><br />了解產業追蹤、回應排名、<br />粉絲喜好與競爭力比較，<br />精準掌握產業數據脈動！"
+                }
+            ],
+            "feature_inner_btn_text": "開始使用"
+        },
+        "card5": {
+            "title": "告訴你小編俠<span>可以做到什麼</span>"
+        },
+        "card6": {
+            "title": "方案資訊",
+            "subtitle": {
+                "limit_discount": "限時優惠",
+                "limit_discount_2": "名",
+                "limit_discount_3": "現在加入，免費試用30天！"
+            },
+            "info_table": {
+                "tab": {
+                    "monthly": "月費",
+                    "yearly": "年費"
+                },
+                "table_height": "928",
+                "table": [
+                    {
+                        "title": "超佛！<br />看產業排名脈動<br />免錢！",
+                        "btn_text": "立即免費試用",
+                        "features": [
+                            "產業粉絲數排行榜",
+                            "產業回應率排行榜",
+                            "產業TOP回應貼文",
+                            "產業價值排名排行榜"
+                        ]
+                    },
+                    {
+                        "title": "初階版<br />（${onSale1}/{payType}）",
+                        "subtitle": "原價${price1}",
+                        "btn_text": "我有興趣",
+                        "features": [
+                            { "text": "產業粉絲數排行榜" },
+                            { "text": "產業回應率排行榜" },
+                            { "text": "產業TOP回應貼文" },
+                            { "text": "產業價值排名排行榜" },
+                            { "text": "KPI達成率", "class": "primary-blue" },
+                            { "text": "同期比", "class": "primary-blue" },
+                            { "text": "貼文成效表", "class": "primary-blue" },
+                            { "text": "主題分析", "class": "primary-blue" },
+                            { "text": "上線時間", "class": "primary-blue" },
+                            { "text": "產業Benchmark", "class": "primary-blue" },
+                            { "text": "產業社群熱點", "class": "primary-blue" },
+                            { "text": "社群價值計算機", "class": "primary-blue" },
+                            { "text": "互動文字雲", "class": "primary-blue" }
+                        ]
+                    },
+                    {
+                        "title": "進階版<br />（${onSale2}/{payType}）",
+                        "subtitle": "原價${price2}",
+                        "btn_text": "我有興趣",
+                        "features": [
+                            { "text": "產業粉絲數排行榜" },
+                            { "text": "產業回應率排行榜" },
+                            { "text": "產業TOP回應貼文" },
+                            { "text": "產業價值排名排行榜" },
+                            { "text": "KPI達成率" },
+                            { "text": "同期比" },
+                            { "text": "貼文成效表" },
+                            { "text": "主題分析" },
+                            { "text": "上線時間" },
+                            { "text": "產業Benchmark" },
+                            { "text": "產業社群熱點" },
+                            { "text": "社群價值計算機" },
+                            { "text": "互動文字雲" },
+                            { "text": "退粉原因分析", "class": "primary-blue" },
+                            { "text": "受眾分析", "class": "primary-blue" },
+                            { "text": "競品比較", "class": "primary-blue" }
+                        ]
+                    },
+                    {
+                        "title": "高階版<br />（${onSale3}/{payType}）",
+                        "subtitle": "原價${price3}",
+                        "btn_text": "我有興趣",
+                        "features": [
+                            { "text": "產業粉絲數排行榜" },
+                            { "text": "產業回應率排行榜" },
+                            { "text": "產業TOP回應貼文" },
+                            { "text": "產業價值排名排行榜" },
+                            { "text": "KPI達成率" },
+                            { "text": "同期比" },
+                            { "text": "貼文成效表" },
+                            { "text": "主題分析" },
+                            { "text": "上線時間" },
+                            { "text": "產業Benchmark" },
+                            { "text": "產業社群熱點" },
+                            { "text": "社群價值計算機" },
+                            { "text": "互動文字雲" },
+                            { "text": "退粉原因分析" },
+                            { "text": "受眾分析" },
+                            { "text": "競品比較" },
+                            { "text": "報告生成", "class": "primary-blue" },
+                            { "text": "巡查＆危機警報", "class": "primary-blue" },
+                            { "text": "國外同業TOP10", "class": "primary-blue" }
+                        ]
+                    }
+                ]
+            },
+            "level-intro-modal-container-2": {
+                "confirm_btn": "確定"
+            },
+            "section06-subTitle": "更高需求，歡迎聯繫",
+            "detail_btn": "查看詳細方案介紹",
+            "detail_titles": [
+                "Free", "初階版<br />($299/月)", "進階版<br />($799/月)", "高階版<br />($1,499/月)"
+            ],
+            "detail_features": [
+                "KPI達成率",
+                "同期比",
+                "貼文成效表",
+                "退粉絲原因解析",
+                "主題分析",
+                "主題操作",
+                "粉絲團巡查回報郵件+危機預警報器",
+                "受眾分析",
+                "上線時間",
+                "競品比較",
+                "產業benchmark評估值",
+                "產業社群熱點",
+                "國外同業top 10內容",
+                "社群價值計算機",
+                "互動文字雲",
+                "台灣/全球該產業高低粉絲排序",
+                "台灣/全球該產業互動率排序",
+                "台灣/全球該產業TOP互動貼文為何",
+                "台灣/全球該產業粉絲團價值排名"
+            ]
+        },
+        "card7": {
+            "title": "FAQ",
+            "faq_list": [
+                {
+                "q_": "Q：為什麼需要使用小編俠？",
+                "a_": "Ａ：小編俠是款由AI計算粉絲團各大數據並分析，幫助小編省去大把時間更輕鬆經營粉絲團的軟體。"
+                },
+                {
+                "q_": "Q：登入後，我要如何開始使用小編俠？",
+                "a_": "Ａ：首次登入後會依照每個功能做各步驟說明，若仍不知道該如何使用，可至設定頁面觀看教學影片。"
+                },
+                {
+                "q_": "Q：一個帳號可以設定幾個粉絲團？",
+                "a_": "Ａ：依據不同的會員方案可設定不同數量的粉絲團(初階版:1個 進階版:3個 高階版:5個)。"
+                },
+                {
+                "q_": "Q：為什麼看不見我想要選擇的粉絲專頁？",
+                "a_": "Ａ：可能原因為<br>1. 粉絲專業未被授權(按此解決)<br>2. 登入帳號非該粉絲專頁的管理員"
+                },
+                {
+                "q_": "Q：為什麼查詢不到想要的資訊？",
+                "a_": "Ａ：若未在常見問題中找到適合您的解決方法，可於科學小編俠官方Line帳號留下您的問題，我們會盡快與您聯繫。"
+                },
+                {
+                "q_": "Q：付款可以開立統一編號嗎？",
+                "a_": "Ａ：可以，訂購方案時，系統將提醒您輸入統一編號，電子發票會於付款後寄送至指定信箱。如需更改統一編號，可至<span class=\"bold_font\">設定頁面 > 帳務設定</span>進行修改。"
+                },
+                {
+                "q_": "Q：付款的相關問題應該要去哪裡看？",
+                "a_": "Ａ：如有付款相關問題，請透過<span class=\"bold_font\">科學小編俠官方Line帳號</span>留下您的問題，我們將盡快與您聯繫。"
+                },
+                {
+                "q_": "Q：免費試用有使用期限嗎？",
+                "a_": "Ａ：30天免費試用後，需另外選擇使用方案。"
+                },
+                {
+                "q_": "Q：如何從免費試用改為付費方案或是取消方案？",
+                "a_": "Ａ：登入會員後填寫付款設定，後續可隨時變更方案。"
+                },
+                {
+                "q_": "Q：我可以升級或降級使用方案嗎？",
+                "a_": "Ａ：可以，請至<span class=\"bold_font\">設定 > 我的方案 > 變更方案</span>選擇升級或降級方案。<br>• 變更方案需重新付款，並依當前方案的使用比例計算退費（未使用天數的費用將直接折抵至新方案的費用中）。<br>• 若升級使用方案，會於確認後立即提升方案等級；若選擇降級，則會於隔月開始計算。<br>※ 重新購買其他方案時，若涉及退費，退費金額的小數點部分將依無條件進位或捨去方式計算。"
+                },
+                {
+                "q_": "Q：如何決定哪個方案最適合？",
+                "a_": "Ａ：可依照需要設定的粉絲團來做方案選擇(初階版:1個 進階版:3個 高階版:5個)。"
+                },
+                {
+                "q_": "Q：如何取消方案？",
+                "a_": "Ａ：訂購方案後，可至<span class=\"bold_font\">設定 > 我的方案</span>查看「方案到期時間」。方案到期後將自動取消，在此期間內無法提前取消或退款。"
+                },
+                {
+                "q_": "Q：購買方案後，可以退費嗎？",
+                "a_": "Ａ：不行，請務必在訂購前確認清楚。"
+                }
+            ]
+        },
+        "card8": {
+            "title": "聯絡我們",
+            "subtitle": "歡迎您提供寶貴的意見，若有任何服務需求及疑問<br />請填寫下方聯絡表單，我們將盡快與您聯繫，謝謝！",
+            "form": {
+                "name": "姓名",
+                "phone": "電話",
+                "title": "主旨",
+                "message": "您的訊息",
+                "recapcha": "請輸入驗證碼",
+                "btn": "送出"
+            },
+            "validate": {
+                "name_required": "姓名不得為空",
+                "name_invalid": "姓名格式不正確",
+                "email_required": "Email 不得為空",
+                "email_invalid": "Email 格式不正確",
+                "title_required": "主旨不得為空",
+                "title_invalid": "主旨中不得包含 JavaScript 代碼",
+                "phone_required": "電話號碼不得為空",
+                "phone_invalid": "電話號碼格式不正確",
+                "message_required": "訊息不得為空",
+                "message_invalid": "訊息中不得包含 JavaScript 代碼",
+                "recapcha_required": "驗證碼不得為空",
+                "recapcha_invalid": "驗證碼匹配不正確"
+            }
+        },
+        "card9": {
+            "subtitle": "拯救小編的SuperMan",
+            "btn": "開始試用"
+        },
+        "footer": {
+            "contact_us": "聯絡我們 {platform} {at} {id}",
+            "return-policy": "退換貨政策",
+            "service-policy": "服務條款",
+            "privacy": "隱私權條款"
+        },
+        "side": {
+            "try_btn": "立即<br>購買"
+        },
+        "common": {
+            "month": "月",
+            "year": "年"
+        }
+    },
+    "return-privacy": {
+        "title": "退換貨政策",
+        "update_time": "更新日期：113 年 5 月 2 日",
+        "content":"科學小編俠（以下簡稱本網站），為了讓您能夠安心使用本網站的各項服務與資訊，特此向您說明本網站的退換貨政策，以保障您的權益，請您詳閱下列內容：<br>1. 科學小編俠平台共同使用第三方服務 藍新金流 之信用卡線上支付系統，於本平台上完成綁定付款資訊即視為使用者同意使用該第三方服務並依本條款按月自動扣款。<br>2. 本平台為使用者付費，當月服務費用將於扣款日扣除，不提供退費服務。<br>3. 專案擁有者可隨時刪除所綁定的付款方式，並於下次扣款日前綁定新的付款方式，以確保聊天機器人 / 分析管理工具功能正常運作。<br>4. 計費時區以 UTC +0 時區為準。<br>5. 科學小編俠會員帳號擁有者應使用本人之信用卡綁定支付服務費用，若會員帳號擁有者使用非本人（下稱「實際付款人」）之信用卡進行付款，本公司將視為會員帳號擁有者已獲得合法授權使用，實際付款人亦完全知悉此付款行為。會員帳號擁有者或實際付款人將來得查詢與付款相關之使用者帳戶資訊、終止付費或進行僅屬於實際付款人個人之資料異動。<br>6. 如因不可抗力之因素（如天災）或因雲端主機供應商、硬體商、第三方服務商、機器人串接訊息之通訊平台（如 Facebook、LINE）帳號之服務中斷、延遲或通訊相關缺陷而導致本平台停止運作，或因其他使用者所造成之任何瑕疵與損害，本公司概不負賠償之責，系統預期修復時間及相關訊息將於粉絲專頁或官網上公告。<br>7. 每次扣款成功後，使用者可於個人帳單頁面檢視及下載收據。<br>8. 如使用者升級方案並付費後，欲變更回Free方案，可至頁面「關於我」內設定變更，並於下個扣款日生效，平台不予退費。<br>9. 停止扣款：<br>a. 如使用者不願再付費，可至頁面「關於我」內設定將版本降至 Free，或者將付款資訊於平台內移除。<br>b. 如果使用者直接於平台內移除付款資訊，平台於下次扣款日如無法收到款項，即將該方案自動降至 Free，部分功能限制或無法使用。<br><br>本公司就所提供的服務授予用戶使用權，如另有規定使用費、使用期間等使用條件時，即應遵照該等使用條件。 如貴用戶已同意前項所示之使用條件，於任何情況下均不得要求本公司終止本服務及/或退還已支付之費用。 即使本服務介面上有顯示「購買」、「販賣」等文字，本公司對業務合作夥伴及用戶提供的相關智慧財產權及其他權利亦不因此移轉給用戶，對用戶僅有授予上述使用權。"
+    },
+    "privacy": {
+        "title": "使用者資料條款與隱私權政策",
+        "update_time": "更新日期：114 年 6 月 27 日",
+        "content":"科學小編俠（以下簡稱本網站），為了讓您能夠安心使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：<br><br>一、隱私權保護政策的適用範圍<br>隱私權保護政策內容，包括本網站如何處理在您使用網站服務時收集到的個人識別資料。隱私權保護政策不適用於本網站以外的相關連結網站，也不適用於非本網站所委託或參與管理的人員。<br><br>二、個人資料的蒐集、處理及利用方式<br>1. 當您造訪本網站或使用本網站所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本網站不會將個人資料用於其他用途。<br>本網站在您使用服務信箱、問卷調查等互動性功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。<br>2. 於一般瀏覽時，伺服器會自行記錄相關行徑，包括您使用連線設備的IP位址、使用時間、使用的瀏覽器、瀏覽及點選資料記錄等，做為我們增進網站服務的參考依據，此記錄為內部應用，決不對外公佈。<br>3. 為提供精確的服務，我們會將收集的資料進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。<br><br>三、網站對外的相關連結<br>本網站的網頁提供其他網站的網路連結，您也可經由本網站所提供的連結，點選進入其他網站。但該連結網站不適用本網站的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。<br><br>四、與第三人共用個人資料之政策<br>本網站絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。<br><br>前項但書之情形包括不限於：<br><br>1. 經由您書面同意。<br>2. 法律明文規定。<br>3. 為免除您生命、身體、自由或財產上之危險。<br>4. 與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。<br>5. 當您在網站的行為，違反服務條款或可能損害或妨礙網站與其他使用者權益或導致任何人遭受損害時，經網站管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。<br>6. 有利於您的權益。<br>7. 本網站委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。<br><br>五、Cookie之使用<br>為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的Cookie，若您不願接受Cookie的寫入，您可在您使用的瀏覽器功能項中設定隱私權等級為高，即可拒絕Cookie的寫入，但可能會導至網站某些功能無法正常執行 。<br><br>六、隱私權保護政策之修正<br>本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。"
+
+    },
+    "layout": {
+        "cookie_agree": {
+            "content": "為提供您更優質的服務，本網站使用cookies。若您繼續瀏覽網頁，即表示您同意我們的cookies政策。 ",
+            "agree": "了解隱私權條款",
+            "understand": "我了解了"
+        },
+        "please_use_desktop": "請使用電腦版，<br />以利呈現完善社群數據分析喔",
+        "next_text": "下一個",
+        "prev_text": "上一個"
+    },
+    "login": {
+        "title" : "登入",
+        "comment": "請以有<span class=\"_bluehighlight\">粉絲專頁管理權限</span>的臉書帳號登入",
+        "btn_text": "以Facebook帳號繼續",
+        "comment_2": "沒有帳號嗎?",
+        "register_now": "立即註冊",
+        "register": {  
+            "title": "目前登入的Facebook帳號尚未註冊科學小編俠，是否立即註冊",
+            "register_title" : "會員註冊",
+            "field": {
+                "name": "使用者姓名",
+                "phone": "連絡電話",
+                "agree_terms": "註冊會員代表您同意",
+                "agree_terms_2": "資料使用相關政策",
+                "agree_terms_3": "與",
+                "agree_terms_4": "隱私權條款",
+                "submit_btn": "確定",
+                "confirm_btn":"確定"
+            }
+        }
+    },
+    "home": {
+        "field": {
+            "select_fanpage": "選擇粉絲團",
+            "custom_period": ["最近一周", "最近一個月", "上周", "上個月"],
+            "yes": "是",
+            "no": "否",
+            "tutorialTextArr":  [
+                "科學小編俠",
+                "KPI達成率",
+                "受眾分析",
+                "退粉原因",
+                "巡查警報",
+                "社群排行榜",
+                "同期比與互動",
+                "競品與社群價值"
+            ],
+            "function_intro": "功能簡介",
+            "alert_no": "目前無法提供",
+            "maleChtTextArr": [
+                "13~17歲男性",
+                "18~24歲男性",
+                "25~34歲男性",
+                "35~44歲男性",
+                "45~54歲男性",
+                "55~64歲男性",
+                "65歲以上男性"
+            ],
+            "femaleChtTextArr": [
+                "13~17歲女性",
+                "18~24歲女性",
+                "25~34歲女性",
+                "35~44歲女性",
+                "45~54歲女性",
+                "55~64歲女性",
+                "65歲以上女性"
+            ],
+            "warning_1": "還未有負面留言",
+            "warning_2": "今日有",
+            "warning_3": "則負面留言",
+            "confirm_submit": "確認送出",
+            "target_KPI": "應達KPI",
+            "actual_KPI_achieved": "實達KPI"
+        },
+        "tutorial": {
+            "step1": "「科學小編俠」是使用大數據整理分析幫你更好管理粉絲團的大小事",
+            "step2": "此為KPI達成率<br>幫你檢視各KPI達成率的狀況。<br>下方按鈕或是「我的分析」頁籤前往設定KPI達成率！",
+            "step3": "此為受眾分析<br>幫你確認粉絲團的TA是否正確。<br>下方按鈕或是「我的分析」頁籤前往設定受眾分析！",
+            "step4": "這個是退粉原因：<br>分析時段間粉絲團退粉人數並查看該日貼文了解原因。<br>點擊按鈕或是「我的分析>>受眾」頁籤前往退粉原因！",
+            "step5": "這個是巡查警報：<br>幫你即時掌握負面資訊，並立即通知。<br>點擊按鈕或是「我的分析」頁籤前往巡查警報！",
+            "step6": "<div class=\"smaller\">同期比：了解時段內各指標的進／退步<br><br>貼文成效表：貼文數據的鉅細靡遺整理<br><br>主題分析：分析與了解粉絲偏好的內容<br><br>互動文字雲：深度了解粉絲團時段間討論關鍵字</div>",
+            "step7": "<div class=\"smaller\">上線時間：知道什麼時候是最佳PO文時間<br><br>競品比較：透過比較知道是否做的好與壞<br><br>熱點/國外TOP：了解同產業TA喜好，同時引進新產業創意<br><br>社群價值：知悉品牌社群價值與競品社群價值比較</div>",
+            "step8": "<div class=\"smaller\">追蹤數：了解產業粉絲排名<br><br>回應率：了解產業互動排名<br><br>TOP回應貼文：了解產業粉絲喜好<br><br>價值排名：了解產業粉絲競爭力比較</div>",
+            "dialog_no": "已選擇粉絲團則無法查看此功能"
+        },
+        "showDailyPopup": {
+            "title" : "您目前為30天免費「高階」試用版本，<br>方案到期時間為",
+            "extend_btn": "加碼延長",
+            "skip_btn": "略過加碼",
+            "friends_mgm_btn": "推薦領$400"
+        },
+        "left_container": {
+            "dialog_1": "Hi 親愛的",
+            "dialog_2": "，今天過得好嗎？",
+            "dialog_3": "趕緊看看今日粉絲團的狀況吧！"
+        },
+        "bottom_container": {
+            "left": {
+                "unset_dialog": "您似乎還沒設定<span class=\"__highlight\">KPI</span><br />點擊下方按鈕前往設定",
+                "engagements": "應達互動數",
+                "engagements_2": "實達互動數",
+                "ar": "達成率",
+                "ar_c": "*互動率計算方式：互動數/觸及數*100%",
+                "ar_c_2": "互動數計算方式",
+                "ar_c_3": "（心情數＋留言數＋分享數+點擊數+影片觀看數*",
+                "ar_c_4": "（心情數＋留言數＋分享數+點擊數)",
+                "kpi_desc_container": {
+                    "title": "KPI達成率",
+                    "subtitle": "幫助了解各指標的<span class=\"__highlight\">KPI達成狀況</span>",
+                    "dialog_1": "追蹤KPI達成率",
+                    "dialog_2": "互動數達成率為",
+                    "dialog_3": "先設定粉絲團",
+                    "btn_1": "修改KPI",
+                    "btn_2": "看看其他指標狀況"
+                }
+            },
+            "middle": {
+                "report_btn": "報告生成",
+                "health_index": "健康度"
+            },
+            "right": {
+                "audience_ana_desc_container": {
+                    "title": "受眾分析",
+                    "subtitle": "似乎還未<span class=\"__highlight\">設定粉絲團</span><br /> 讓小編俠幫你分析粉絲們",
+                    "dialog_1": "粉絲團總追蹤",
+                    "dialog_2": "主要受眾",
+                    "btn_1": "設定粉絲團",
+                    "btn_2": "查看總分布"
+                },
+                "unfollow_fans_desc_container": {
+                    "title": "退粉原因",
+                    "subtitle": "似乎還未設定<span class=\"__highlight\">退粉分析</span><br />小編俠幫你監控粉絲退粉",
+                    "dialog_1": "期間",
+                    "dialog_2": "總退粉",
+                    "dialog_3": "人",
+                    "btn_1": "設定粉絲團",
+                    "btn_2": "查看其他時段"
+                },
+                "warning_desc_container": {
+                    "title": "巡查警報",
+                    "subtitle": "似乎還未設定<span class=\"__highlight\">巡查警報</span><br />讓小編俠幫你找負面留言",
+                    "btn_1": "設定巡查警報",
+                    "btn_2": "前往查看"
+                }
+            }
+        },
+        "kpi_setting_container": {
+            "title": "KPI達成率參數設定",
+            "label_1": "請設定KPI參數",
+            "followers": "追蹤數",
+            "reach": "觸及數",
+            "engagements": "互動數",
+            "is_vv": "互動數是否納入影片觀看數",
+            "yes": "是",
+            "no": "否",
+            "video_views": "影片觀看數",
+            "peroid": "設定區間"
+        }
+    },
+    "topFollowedCount": {
+        "title": "追蹤數",
+        "subtitle": "選擇<span class=\"hight_light\">國家與產業</span>！<br />了解產業追蹤數排行榜精準掌握產業數據脈動！",
+        "form": {
+            "selectedCountry": "選擇國家",
+            "selectedType": "選擇產業"
+        },
+        "result": {
+            "description_1": "您查看的是",
+            "description_2": "，",
+            "description_3": "類的追蹤數，排行榜結果如下：",
+            "field": {
+                "f_1": "追蹤數排名",
+                "f_2": "追蹤數",
+                "f_3": "粉絲團"
+            },
+            "date_range_": "資料統計區間"
+        },
+        "tutorial" : {
+            "step1": "透過產業粉絲團的追蹤數排行榜，了解該產業 於當地的社群影響力",
+            "step2": "<p class=\"center_\">選擇查詢的<br>國家或產業</p>",
+            "step3": "點選確定，開始分析"
+        },
+        "robot": {
+            "intro": "透過產業粉絲團的「追蹤數排行榜」，了解該產業 於當地的「社群影響力」"
+        }
+    },
+    "topInteractRate": {
+        "title": "回應率",
+        "subtitle": "選擇<span class=\"hight_light\">國家與產業</span>！<br />了解產業粉絲團回應排行榜精準掌握產業數據脈動！",
+        "form": {
+            "selectedCountry": "選擇國家",
+            "selectedType": "選擇產業"
+        },
+        "result": {
+            "description_1": "您查看的是",
+            "description_2": "，",
+            "description_3": "類的回應率，排行榜結果如下：",
+            "field": {
+                "f_1": "回應率<br />排名",
+                "f_2": "回應率",
+                "f_2_c": "回應率=(心情數+留言數+分享數+影片觀看數*0.3)/期間貼文篇數/追蹤數",
+                "f_3": "粉絲團",
+                "f_4": "追蹤數",
+                "f_5": "篇數",
+                "f_6": "心情數",
+                "f_7": "留言數",
+                "f_8": "分享",
+                "f_9": "影片觀看數"
+            },
+            "date_range_": "資料統計區間"
+        },
+        "tutorial" : {
+            "step1": "透過產業粉絲團的追蹤數排行榜，了解該產業 於當地的社群影響力",
+            "step2": "<p class=\"center_\">選擇查詢的<br>國家或產業</p>",
+            "step3": "點選確定，開始分析"
+        },
+        "robot": {
+            "intro": "透過產業粉絲團的「追蹤數排行榜」，了解該產業 於當地的「社群影響力」",
+            "result": "影片觀看x0.3的原因是：<br>配合臉書演算法的優劣取捨，影片觀看有其價值，但獲得較容易，為避免失真，將影片觀看數x 0.3"
+        }
+    },
+   "topPost": {
+        "title": "TOP回應貼文",
+        "subtitle": "選擇<span class=\"hight_light\">國家與產業</span>！<br />了解產業粉絲團回應貼文排行榜精準掌握產業數據脈動！",
+        "form": {
+            "selectedCountry": "選擇國家",
+            "selectedType": "選擇產業"
+        },
+        "result": {
+            "description_1": "您查看的是",
+            "description_2": "，",
+            "description_3": "類的回應貼文，排行榜結果如下：",
+            "field": {
+                "f_1": "回應率<br />排名",
+                "f_2": "貼文<br />回應率",
+                "f_2_c": "單篇回應率=(心情數+留言數+分享數+影片觀看數*0.3)/粉絲數",
+                "f_3": "粉絲團",
+                "f_4": "貼文內容",
+                "f_5": "追蹤數",
+                "f_6": "心情數",
+                "f_7": "留言數",
+                "f_8": "分享",
+                "f_9": "影片觀看數"
+            },
+            "date_range_": "資料統計區間"
+        },
+        "tutorial" : {
+            "step1": "透過產業粉絲團的追蹤數排行榜，了解該產業 於當地的社群影響力",
+            "step2": "<p class=\"center_\">選擇查詢的<br>國家或產業</p>",
+            "step3": "點選確定，開始分析"
+        },
+        "robot": {
+            "intro": "透過產業粉絲團的「追蹤數排行榜」，了解該產業 於當地的「社群影響力」",
+            "result": "影片觀看x0.3的原因是：<br>配合臉書演算法的優劣取捨，影片觀看有其價值，但獲得較容易，為避免失真，將影片觀看數x 0.3"
+        }
+    },
+    "topAtm": {
+         "title": "價值排名",
+         "subtitle": "選擇<span class=\"hight_light\">國家與產業</span>！<br />了解產業粉絲團價值排行榜精準掌握產業數據脈動！",
+        "form": {
+            "selectedCountry": "選擇國家",
+            "selectedType": "選擇產業"
+        },
+        "result": {
+            "description_1": "您查看的是",
+            "description_2": "，",
+            "description_3": "類的價值排名，排行榜結果如下：",
+            "field": {
+                "f_1": "價值排名",
+                "f_2": "價值 ($)",
+                "f_2_c": "詳細圖表請展開ㄎㄎ查看",
+                "f_2_c_img": "",
+                "f_3": "粉絲團"
+            },
+            "date_range_": "資料統計區間"
+        },
+        "tutorial" : {
+            "step1": "透過產業粉絲團的追蹤數排行榜，了解該產業 於當地的社群影響力",
+            "step2": "<p class=\"center_\">選擇查詢的<br>國家或產業</p>",
+            "step3": "點選確定，開始分析"
+        },
+        "robot": {
+            "intro": "透過產業粉絲團的「追蹤數排行榜」，了解該產業 於當地的「社群影響力」",
+            "result": "影片觀看x0.3的原因是：<br>配合臉書演算法的優劣取捨，影片觀看有其價值，但獲得較容易，為避免失真，將影片觀看數x 0.3"
+        },
+        "understand_atm": "了解我的價值"
+    },
+    "kpireach": {
+        "title": "KPI達成率",
+        "subtitle": "輸入資料自動計算 KPI 達成狀況",
+        "field": {
+            "page_placeholder": "請輸入粉絲團名稱",
+            "title" : "請選擇指標與KPI數量",
+            "followers": "目標達成總追蹤數",
+            "followers_2": "追蹤數",
+            "kpi_placeholder": "請輸入應達KPI值",
+            "reach": "觸及數",
+            "interact": "互動數",
+            "interact_tooltip": "*互動數計算方式：（心情數＋留言數＋分享數+點擊數+影片觀看數*影片加權值(0.1~1.0)",
+            "is_video_views": "互動數是否納入影片觀看數？",
+            "please_enter_weight": "請輸入數值(0~1.0)",
+            "yes": "是",
+            "no": "否",
+            "video_views": "影片觀看數",
+            "options": "選填",
+            "date_period": "查詢區間",
+            "rules": {
+                "r_1": "至少填寫一項指標",
+                "r_2": "請輸入0~1.0之間的數值EX.0.3",
+                "r_3": "請輸入0~1.0之間的數值EX.0.3",
+                "r_4": "名稱不得為空"
+            },
+            "target_KPI": "應達KPI",
+            "actual_KPI_achieved": "實達KPI"
+        },
+        "result": {
+            "target": "應達",
+            "achieved": "實達",
+            "interact_count": "互動數",
+            "title" : {
+                "text_": "的KPI達成率結果："
+            },
+            "achievement_rate" : "達成率",
+            "field": {
+                "followers": "追蹤數",
+                "reach": "觸及數",
+                "interact": "互動數"
+            },
+            "query_again_btn": "重新查詢KPI",
+            "kpi_compare_btn": "查詢同期比"
+        },
+        "compare_result": {
+            "field": {
+                "period": "比較時段",
+                "post": "篇數",
+                "engagement_rate": "互動率",
+                "comments": {
+                    "c_1": "互動率計算方式= (心情＋留言＋分享+點擊+影片觀看*",
+                    "c_2": ")／觸及人數x 100%"
+                }
+            },
+            "title": "的KPI達成率同期比較結果：",
+            "title_2": "時段&nbsp;A&nbsp;相較於&nbsp;時段&nbsp;B",
+            "title_3": "與其他區段比較:",
+            "back_btn": "重新查詢KPI"
+        },
+        "robot" : {
+            "intro": "幫你查詢各項「KPI達成」的情況！",
+            "intro_2": "<h6 style=\"color: #000;font-family: \"Noto Sans TC\", sans-serif;\">可選擇是否納入影片觀看數，影片觀看加權計算一般來說會優先選擇乘以0.3，避免直接乘以1而失準！<br/>因為影片觀看於Meta互動計算有所價值但常被忽略</h6>",
+            "intro_3": "填入右邊的資訊幫你查詢各項KPI達成情況"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">檢視自己設定的粉絲團<br>目標完成度</p>",
+            "step2": "<p class=\"center_\">選擇您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">設定您對於該項指標的<br>目標KPI值</p>",
+            "step4": "<p class=\"\">可選擇是否納入影片觀看數，影片觀看加權計算建議選擇乘以0.3，避免影片數值過高失準！<br><br>若選擇「是」，互動數將會依據設定的加權值納入影片觀看數之計算</p>",
+            "step5": "<p class=\"center_\">設定查詢時段</p>",
+            "step6": "<p class=\"\">點選「 查詢同期比 」，可以比較其它時期的成效差異</p>",
+            "step7": "<p class=\"\">也可以自訂時間區段，比較不同時期各項成效差異</p>",
+            "step8": "<p class=\"center_\">點選確認，開始分析</p>"
+        }
+    },
+    "kpicompare": {
+        "title": "查詢同期比",
+        "subtitle": "輸入資料查看同期比，了解進、退步",
+        "field": {
+            "page_placeholder": "請輸入粉絲團名稱",
+            "period": "時段",
+            "func_title": "互動數計算方式：",
+            "func_title_2": "心情數＋留言數＋分享數+點擊數+影片觀看數",
+            "weight_placeholder": "請輸入數值(0~1.0)",
+            "tooltip_1": "可依照您的粉絲團互動計算方式選擇影片觀看數的加權計算方式"
+        },
+        "robot" : {
+            "intro": "影片觀看加權計算一般來說會優先選擇乘以0.3，避免直接乘以1而失準",
+            "intro_2": "除了年度比較之外，也可以進階比較不同時期的表現差異喔！",
+            "intro_3": "了解粉絲團「成效進步還是退步」：幫你自動比較「不同時段之效益同期比」"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">了解設定期間<br>粉絲團成效差異 </p>",
+            "step2": "<p class=\"center_\">選擇您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">設定您想進行比較的<br>兩個時間區段</p>",
+            "step4": "<p class=\"\">互動數將會依據您所設定的<br>加權值納入影片觀看數進行計算<br><br>影片觀看加權計算建議選擇<br>乘以0.3，避免影片數值過高失準！</p>",
+            "step5": "<p class=\"center_\">點選確認，開始分析</p>"
+        },
+        "result": {
+            "field" : {
+                "and_text": "與",
+                "period": "比較時段",
+                "post": "篇數",
+                "engagement_rate": "互動率",
+                "comments": {
+                    "c_1": "互動率計算方式= (心情＋留言＋分享+點擊+影片觀看*",
+                    "c_2": ")／觸及人數x 100%"
+                },
+                "followers": "追蹤數",
+                "reach": "觸及數",
+                "interact": "互動數"
+            },
+            "title": "的同期比較結果：",
+            "title_2": "時段&nbsp;A&nbsp;相較於&nbsp;時段&nbsp;B",
+            "title_3": "與其他區段比較:",
+            "search_again_btn": "重新查詢其他時段同期比",
+            "check_kpi_reach_btn": "查詢KPI達成率"
+        }
+    },
+    "pea": {
+        "title": "貼文成效表",
+        "subtitle": "查看所有<span class=\"primary-green\">貼文數據</span>，配合主題分析為你解析成效",
+        "field": {
+            "page_placeholder": "請輸入粉絲團名稱",
+            "title": "選擇欲查詢的時段",
+            "video_views": "影片觀看數",
+            "option": "選填",
+            "interact_tooltip": "*互動數計算方式：（心情數＋留言數＋分享數+點擊數+影片觀看數*影片加權值(0.1~1.0)",
+            "please_enter_weight": "請輸入數值(0~1.0)",
+            "enter": "送出",
+            "tooltip": {
+                "post_impressions": "指任何來自您粉絲專頁或有關您專頁的內容進入用戶瀏覽畫面的次數",
+                "totalReach": "指任何查看您粉絲專頁任何相關內容的用戶人數",
+                "post_impressions_organic_unique": "用戶的瀏覽畫面出現粉絲專頁未付費貼文的人數",
+                "post_impressions_paid_unique": "指用戶的瀏覽畫面出現粉絲專頁付費貼文的人數。",
+                "videoViewRate": "（I影片觀看數/A總觸及數）100%",
+                "totalPostClicks": "E其他點擊＋F相片點擊＋G連結點擊＋H播放點擊",
+                "discussionCount": "B分享＋C心情＋D留言",
+                "totalInteractionsWithoutViews": "K總點擊數＋L談論數",
+                "totalInteractionsWithViews": "I影片觀看數＋K總點擊數＋L談論數",
+                "interactionRateWithoutViews": "（M不含影觀總互動數/A總觸及數）/100%",
+                "interactionRateWithViews": "（O含影觀總互動數/A總觸及數）/100%"
+            }
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">為您整理出各種貼文數據，分析貼文成效</p>",
+            "step2": "<p class=\"center_\">選取您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">設定進行分析的時段，<br>即能看到期間內所有貼文<br>的數據成效</p>",
+            "step4": "<p class=\"center_\">可選擇是否納入影片觀看數，影片觀看加權計算建議選擇乘以0.3，避免影片數值過高失準！<br><br>若選擇「是」，互動數將會依據設定的加權值納入影片觀看數之計算</p>",
+            "step5": "<p class=\"center_\">按此下載貼文成效數據的Excel檔案</p>",
+            "step6": "<p class=\"center_\">點擊表頭指標，進行降冪、升冪排序</p>",
+            "step7": "<p class=\"center_\">儲存此次查詢內容，<br>並進入主題分析</p>",
+            "step8": "<p class=\"center_\">點選送出，開始分析</p>"
+        },
+        "robot": {
+            "intro": "<span class=\"fs-4 fw-bold text-center\" style=\"color:#00D8CD;\">點擊按鈕</span>進入主題分析！",
+            "intro_2":"影片觀看加權計算一般來說會優先選擇乘以0.3，避免直接乘以1而失準！",
+            "intro_3":"為您整理出各種貼文數據，分析貼文成效"
+        },
+        "history": {
+            "title": "先前分析的紀錄",
+            "subtitle": "查看先前分析過的貼文成效表",
+            "pagename": "粉絲團名稱",
+            "analysis": "分析",
+            "query_btn": "查詢"
+        },
+        "result": {
+            "title": "之貼文成效總覽：",
+            "field": {
+                "month": "月份",
+                "total_text": "共",
+                "count_text": "筆",
+                "showmore": "展開更多",
+                "showless": "收合",
+                "date": "日期",
+                "content": "貼文內容",
+                "category": "類別",
+                "total_impressions": "總曝光數",
+                "total_reach": "總觸及數",
+                "organic_reach": "自主觸及數",
+                "paid_reach": "付費觸及數",
+                "shares": "分享",
+                "reactions": "心情",
+                "comments": "留言",
+                "other_clicks": "其他點擊",
+                "photo_clicks": "相片點擊",
+                "link_clicks": "連結點擊",
+                "play_clicks": "播放點擊",
+                "video_views": "影片觀看數",
+                "video_views_rate": "影片觀看率",
+                "total_clicks": "總點擊數",
+                "discussions": "談論數",
+                "interact_no_vv": "總互動數(不含影觀)",
+                "engagement_rate_no_vv": "互動率(不含影觀)",
+                "interact_with_vv": "總互動數(含影觀)",
+                "engagement_rate_with_vv": "互動率(含影觀)",
+                "total": "總計"
+            },
+            "save_btn": "儲存",
+            "save_to_theme_btn": "儲存並進入主題分析"
+        }
+        
+    },
+    "theme": {
+        "title": "主題分析",
+        "subtitle": "小編俠為你<span class=\"primary-green\">解析貼文主題 ！</span>讓你更了解粉絲愛什麼",
+        "field": {
+            "page_placeholder": "請輸入粉絲團名稱",
+            "title": "選擇欲查詢的時段",
+            "video_views": "影片觀看數",
+            "option": "選填",
+            "interact_tooltip": "*互動數計算方式：（心情數＋留言數＋分享數+點擊數+影片觀看數*影片加權值(0.1~1.0)",
+            "please_enter_weight": "請輸入數值(0~1.0)",
+            "enter": "送出",
+            "rules": {
+                "r_1": "至少填寫一項指標",
+                "r_2": "請輸入0~1.0之間的數值EX.0.3",
+                "r_3": "請輸入0~1.0之間的數值EX.0.3",
+                "r_4": "名稱不得為空"
+            },
+            "topic_title": "請輸入分類主題:",
+            "topic_title_2": "(可輸入貼文的主題，並按Enter新增選項)"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">透過分析主題內容，<br>檢視粉絲喜好</p>",
+            "step2": "<p class=\"center_\">選取您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">設定想進行分析的時段</p>",
+            "step4": "<p class=\"\">輸入分類主題：<br>除了預設的主題外，<br>亦可輸入欲增加的類別名稱後，按下Enter鍵<br>即可新增自定義的主題</p>",
+            "step5": "<p class=\"center_\">點選送出，開始分析</p>"
+        },
+        "result": {
+            "title_": "之貼文",
+            "field": {
+                "month": "月份",
+                "total_text": "共",
+                "count_text": "筆",
+                "showmore": "展開更多",
+                "showless": "收合",
+                "date": "日期",
+                "content": "貼文內容",
+                "category": "類別",
+                "total_impressions": "總曝光數",
+                "total_reach": "總觸及數",
+                "organic_reach": "自主觸及數",
+                "paid_reach": "付費觸及數",
+                "shares": "分享",
+                "reactions": "心情",
+                "comments": "留言",
+                "other_clicks": "其他點擊",
+                "photo_clicks": "相片點擊",
+                "link_clicks": "連結點擊",
+                "play_clicks": "播放點擊",
+                "video_views": "影片觀看數",
+                "video_views_rate": "影片觀看率",
+                "total_clicks": "總點擊數",
+                "discussions": "談論數",
+                "interact_no_vv": "總互動數(不含影觀)",
+                "engagement_rate_no_vv": "互動率(不含影觀)",
+                "interact_with_vv": "總互動數(含影觀)",
+                "engagement_rate_with_vv": "互動率(含影觀)",
+                "total": "總計",
+                "theme_type": "主題類型",
+                "category_": "分類主題",
+                "rank": "排名",
+                "category_2": "主題",
+                "engagement_rate": "互動率",
+                "video_views2": "影觀數",
+                "post": "篇數"
+            },
+            "return_btn": "返回上一頁",
+            "return_to_edit": "返回編輯",
+            "analysis": "按此解析",
+            "detail_text_btn": "點開即可查看該主題貼文及所有欄位項目！",
+            "view_best_topic_btn": "查看最佳主題分析",
+            "view_worst_topic_btn": "查看最差主題分析",
+            "best_topic_title": "最佳主題分析",
+            "best_topic_title2": "最佳主題",
+            "best_post_title": "最佳貼文",
+            "best_suggestion_title": "建議方向",
+            "memo_text_1": "您分析",
+            "memo_text_2": " 期間分類之主題，以",
+            "memo_text_3": "最佳，",
+            "memo_text_4": "互動率",
+            "memo_text_5": "達到",
+            "memo_text_6": "互動率",
+            "memo_text_7": "達到",
+            "memo_text_8": "，日後可多做類似此貼文，以增加互動率成效。",
+            "worst_topic_title": "最差主題分析",
+            "worst_topic_title2": "最差主題",
+            "worst_post_title": "最差貼文",
+            "memo_text_2_2": ", the worst-performing topic was ",
+            "memo_text_3_2": "最差，",
+            "memo_text_5_2": "降到",
+            "memo_text_8_2": "，日後可減少類似此貼文，以增加互動率成效。",
+            "post_detail": {
+                "post_title": "貼文主題",
+                "total_interact": "總互動數"
+            },
+            "result_title_1": "之貼文成效總覽："
+        },
+        "robot": {
+            "intro": "選定分類主題後:<br/>1.選取該分類的貼文按儲存。<br/>2.切換其他分類主題並重複選取步驟。<br/>3.直到所有貼文都分類完畢，就可以進行解析！",
+            "intro_2":"影片觀看加權計算一般來說會優先選擇乘以0.3，避免直接乘以1而失準！",
+            "intro_3":"透過分析主題內容，檢視粉絲喜好。"
+        },
+        "topic_category": {
+            "events": "時事節慶",
+            "brand": "品牌服務",
+            "product": "產品服務",
+            "engagement": "粉絲互動"
+        },
+        "history": {
+            "category_title": "分類標籤："
+        },
+        "section2": {
+            "feed": "貼文",
+            "enter_tt": "請輸入分類主題",
+            "enter_tt_2": "可輸入貼文的主題，並按Enter新增選項",
+            "select_tt": "請選擇分類主題",
+            "select_tt_2": "請選擇單一分類主題後，至下方勾選貼文，並按儲存進行分類",
+            "category": "分類",
+            "select_tt_3": "勾選欲放進分類的貼文，並至最下方按儲存"
+        }
+    },
+    "unfollowFansAnalysis": {
+        "title": "退粉原因",
+        "subtitle": "從每日退粉數與較近貼文，了解<span class=\"hight_light\">退粉原因</span>！",
+        "field": {
+            "pagename_select_text": "選擇或輸入指標粉絲團",
+            "period_label": "選擇欲查看的時段",
+            "start_btn": "開始分析"
+        },
+         "tutorial": {
+            "step1": "<p class=\"center_\">為您紀錄粉絲團退粉情況，<br>並為您分析原因，<br>避免做出粉絲反感的事項</p>",
+            "step2": "<p class=\"center_\">選擇您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">該時段的總退粉人數</p>",
+            "step4": "<p class=\"center_\">該時段的總退粉人數</p>",
+            "step5": "<p class=\"center_\">滑鼠移至圖上的各柱狀圖<br>會出現該日發布的貼文<br>若該日未發文則無資訊出現</p>",
+            "step6": "<p class=\"center_\">點選並開始分析</p>",
+            "step7": "<p class=\"center_\">查看貼文</p>"
+        },
+        "robot": {
+            "intro": "<div style=\"text-align:center\">為您紀錄粉絲團退粉情況，並為您分析原因，避免做出粉絲反感的事項。</div>",
+            "intro_2":"若要查看退粉原因，請點擊長條圖，若要收回貼文分析，請再次點擊該長條圖"
+        },
+        "result": {
+            "title": "",
+            "title_2": "的粉絲退粉人數結果：",
+            "field": {
+                "people": "人",
+                "unfollow_fans_count": "退粉人數",
+                "unit": "單位",
+                "view_post": "查看貼文",
+                "view_pre_post": "查看先前貼文",
+                "memo_1": "這天發佈了",
+                "memo_2": "篇貼文，共",
+                "memo_3": "人退粉",
+                "memo_4": "發佈的所有貼文",
+                "reactions": "按讚",
+                "comments": "留言",
+                "shares": "分享"
+            }
+        }
+    },
+    "warning": {
+        "title": "巡查警報",
+        "subtitle": "即時掌握粉絲團留言<span class=\"hight_light\">負面資訊</span>，並立即通知處理",
+        "field": {
+            "pagename_select_text": "選擇或輸入指標粉絲團",
+            "email_locker_text": "Email 輸入並確認後即鎖定",
+            "edit_btn": "編輯巡查信",
+            "edit_2_btn": "編輯負面詞",
+            "edit_2_label": "【自行編輯為您偵測的負面關鍵詞】若您的留言有以下「負面關鍵詞」，將即時郵件回報您(逗號分隔)",
+            "nevative_words": "雞歪,雞掰,賤,婊子,白痴,米蟲,王八蛋,髒東西,吃屎,吃大便,下流,神經病,爛,垃圾,醜,痛苦",
+            "email_content": "{使用者}您好，\n本系統發現使用者的粉絲團{粉絲團}出現{則數}則負面資訊，如下列貼文，請立即確認了解：\n\n{貼文列表}\n\n更多資訊請至系統查看，感謝您使用科學小編俠",
+            "dialog_1": "Email格式不符或空值",
+            "dialog_2": "確定要訂閱監測此紛絲團嗎？",
+            "dialog_3": "訂閱成功",
+            "dialog_4": "此粉絲團已經訂閱",
+            "dialog_5": "狀態更改成功",
+            "dialog_6": "刪除完成",
+            "dialog_7": "巡查信內容須包含{使用者}、{粉絲團}、{則數}、{貼文列表}",
+            "dialog_8": "更新完成"
+        },
+        "history": {
+            "title": "粉絲專頁監測列表",
+            "subtitle": "追蹤先前監測過的粉絲專頁"
+
+        },
+        "robot": {
+            "intro": "為您掌握粉絲團的負面資訊，並可立即寄送Email通知您。"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">為您掌握粉絲團的負面資訊，並可立即寄送Email通知您</p>",
+            "step2": "<p class=\"center_\">選擇您的粉絲團名稱</p>",
+            "step3": "<p>設定欲收到通知的Email，按下確認後即鎖定該郵件地址為指定收訊郵箱</p>",
+            "step4": "<p class=\"center_\">可自行設定巡查信的內容模板</p>",
+            "step5": "<p class=\"center_\">自行定義負面或敏感字詞，當該內容出現於粉絲團留言時，即觸發警報</p>"
+        }
+    },
+    "textCloud": {
+        "title": "互動文字雲",
+        "subtitle": "查看粉絲團留言頻率最高的詞彙，了解<span class=\"hight_light\">粉絲洞察</span>",
+         "field": {
+            "pagename_select_text": "選擇或輸入粉絲團",
+            "by_posts": "以篇數分析",
+            "by_date": "以日期分析",
+            "dialog_1": "篇數限制1-500內。",
+            "dialog_2": "文章沒有相關留言。"
+        },
+        "robot": {
+            "intro": "透過粉絲專頁中「粉絲最常說的話」了解粉絲"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">分析粉絲團貼文留言中，<br>出現頻率最高的詞彙</p>",
+            "step2": "<p class=\"center_\">選擇您的粉絲團名稱</p>",
+            "step3": "<p>選擇以日期或篇數分析<br>日期：設定欲分析的時間段</p>",
+            "step4": "<p>選擇以日期或篇數分析<br>篇數：根據粉絲團最近發佈貼文的指定篇數內容進行分析</p>",
+            "step5": "<p>可自行設定欲過濾的<br>關鍵字詞，刪除無意義內容，避免影響分析結果</p>",
+            "step6": "<p class=\"center_\">點擊任意關鍵字，<br>查看留言者的<br>用戶名稱與留言內容</p>",
+            "step7": "<p class=\"center_\">點選送出，開始分析</p>"
+        },
+        "result": {
+            "title": "之互動文字雲",
+            "field": {
+                "keyword_filter": "欲過濾的關鍵字詞",
+                "keyword_filter_2": "(半形逗號，分隔)",
+                "keyword_filter_tooltips": "把無意義字詞刪除，可避免影響分析結果，以利分析出較精準之粉絲洞察。",
+                "keyword": "關鍵字",
+                "count": "次數",
+                "total_": "共有",
+                "comments": "則留言"
+            }
+        }
+    },
+    "anaTop": {
+        "title": "熱點TOP",
+        "subtitle": "透過競品分析，了解<span class=\"hight_light\">同產業TA習性與喜好</span>",
+        "field": {
+            "compare_period": "比較區間",
+             "country_input": "選擇國家",
+            "industy_input": "選擇產業",
+            "dialog_1": "該區間沒有資料"
+        },
+        "robot": {
+            "intro": "幫你找出產業TA的「習性與喜好」：透過幫您抓出國內外「同產業熱度互動率最高」的TOP貼文。"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">幫助您透過國內外<br>相同產業的互動率TOP貼文，<br>了解該產業TA的習性與喜好</p>",
+            "step2": "<p class=\"center_\">設定想要進行比較的時間區段</p>",
+            "step3": "<p class=\"center_\">選擇想查看的國家及產業<br><br>除了台灣，<br>另有其他海外國家可供查詢</p>",
+            "step4": "<p class=\"center_\">點擊並開始分析</p>"
+        },
+        "result": {
+            "title": "熱點貼文排行",
+            "subtitle": "透過競品分析，了解<span class=\"hight_light\">同產業TA習性與喜好</span>",
+            "field": {
+                "interact_rate": "回應率",
+                "interact": "回應數",
+                "reactions": "按讚",
+                "comments": "留言",
+                "shares": "分享"
+            }
+        }
+    },
+    "audienceAnalysis": {
+        "title": "受眾分析",
+        "subtitle": "確認粉絲團的 <span class=\"hight_light\">TA</span> 是否適切",
+        "field": {
+            "pagename_select_text": "選擇或輸入指標粉絲團"
+        },
+        "robot": {
+            "intro": "幫你確認粉絲團「目標群眾」是否正確：<br>透過分析「觸及數」、「年齡性別」、「城市分布」、「國家分布」、「使用語言」等多項指標。"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">藉由粉絲團實際受眾的年齡、<br>性別與觸及數等數值指標，<br>幫您確認目標群眾(TA)是否正確</p>",
+            "step2": "<p class=\"center_\">選取您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">點選並開始分析</p>"
+        },
+        "result": {
+            "field": {
+                "followers": "追蹤人數",
+                "people": "人",
+                "city": "城市",
+                "country": "國家",
+                "language": "語言",
+                "unit": "單位",
+                "city_2": "最多數粉絲所在城市",
+                "country_2": "最多數粉絲所在國家",
+                "language_2": "最多數粉絲使用語言",
+                "page_index": "粉絲團健康度",
+                "page_index_tooltip": "統計坊間粉絲專頁的自然曝光數之低位數、中位數、高位數所分析",
+                "page_index_subtitle": "分析近一個月內的貼文自然曝光率",
+                "post": "篇數",
+                "followers_2":"追蹤數",
+                "toal_impressions": "總自然曝光數",
+                "imperssions_per_post": "每篇平均<br/>自然曝光數",
+                "impressions": "自然曝光率",
+                "page_index_2": "健康度",
+                "content_title": "內容機制喜好分析",
+                "content_subtitle": "分析近一個月社群內各項貼文機制的互動率排名",
+                "video": "影片",
+                "photo": "圖文",
+                "text": "純文字",
+                "interact_rate":"互動率",
+                "reactions":"心情數",
+                "comments":"留言數",
+                "shares":"分享數",
+                "clicks":"點擊數",
+                "video_views":"影觀數",
+                "ranking": "排名"
+            }
+        }
+    },
+    "onlineTime": {
+        "title": "上線時間",
+        "subtitle": "小編俠帶你參透粉絲上線時間，讓你掌握<span class=\"hight_light\">最佳貼文時間</span>游刃有餘",
+        "field": {
+            "pagename_select_text": "選擇或輸入指標粉絲團"
+        },
+        "robot": {
+            "intro": "了解粉絲的「上線時間」：幫你抓到粉絲團「發佈貼文」的「最佳時機」"
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">幫助您了解粉絲上線的時間，並分析發佈貼文的最佳時機</p>",
+            "step2": "<p class=\"center_\">選取您的粉絲團名稱</p>",
+            "step3": "<p class=\"center_\">熱力圖將顯示最近一個月<br>粉絲上線時間的分析，<br>顏色越深代表粉絲上線情形越活躍</p>",
+            "step4": "<p class=\"center_\">系統會為您從粉絲上線時間中<br>分析出5個最適合發佈貼文的時段</p>",
+            "step5": "<p class=\"center_\">點選並開始分析</p>"
+        },
+        "result": {
+            "field": {
+                "title": "熱力圖分析",
+                "subtitle": "最近一個月粉絲上線時間分析",
+                "title_2": "前5名建議貼文時段",
+                "week": {
+                    "sun": "週日",
+                    "mon": "週一",
+                    "tue": "週二",
+                    "wed": "週三",
+                    "thu": "週四",
+                    "fri": "週五",
+                    "sat": "週六"
+                },
+                "comments": "留言人數",
+                "week_table_arr": [
+                    "星期日",
+                    "星期一",
+                    "星期二",
+                    "星期三",
+                    "星期四",
+                    "星期五",
+                    "星期六"
+                ],
+                "people": "人"
+            }
+        }
+    },
+    "ana": {
+        "title": "競品比較",
+        "subtitle": "小編俠帶你透過競品比較，讓你更了解<span class=\"hight_light\">品牌行銷表現優劣</span>",
+        "field": {
+            "select_category": "選擇產業類別",
+            "histogram": "直方圖",
+            "line_chart": "折線圖",
+            "dialog_1": "資料爬取模組執行中，查詢功能暫時無法使用，請稍後再回來看結果。",
+            "dialog_2": "粉絲團不能超過10個",
+            "dialog_3": "粉絲團網址名稱應為:",
+            "dialog_4": "粉絲團不能只有1個",
+            "dialog_5": "粉絲團網址不能重複",
+            "dialog_6": "確定要即時分析此",
+            "dialog_7": "個粉絲團嗎？這可能會需要執行10~30分鐘不等的時間！",
+            "dialog_8": "分析完成，請查看下方分析紀錄",
+            "engagement_rate": "回應率",
+            "type": "產業",
+            "analysis_graph": "分析圖",
+            "dialog_9": "請輸入網址",
+            "dialog_10": "請輸入有效網址",
+            "query_range": "選擇欲查看的時段",
+            "pagename_select_text": "選擇指標粉絲團",
+            "enter_custom_page": "輸入競品粉絲團網址",
+            "add_more_page": "新增粉絲團輸入列",
+            "benchmark_input_memo": "設定產業類別以利比較產業Benchmark",
+            "start_btn": "開始查詢",
+            "dialog_11": "確定要刪除此競品模組嗎？",
+            "dialog_12": "確定要刪除此競品模組中的粉絲專頁"
+        },
+        "robot": {
+            "intro": "`幫你了解品牌與競品之間的「表現優劣」：透過「回應率」、「追蹤數」、「回應數」、「貼文篇數」等多項指標比較。`",
+            "intro_2" : "幫你了解「品牌與產業均值的差距」： 透過產業Benchmark的回應率、回應數、追蹤數等指標"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">讓您更了解<br>品牌與競品間之比較</p>",
+            "step2": "<p class=\"center_\">了解貴品牌與該產業<br>Benchmark的比較</p>",
+            "step3": "<p class=\"center_\">設定想要進行比較的<br>時間區段</p>",
+            "step4": "<p class=\"center_\">設定想要查看的<br>時間區段</p>",
+            "step5": "<p class=\"center_\">選擇想要查看的<br>產業類別</p>",
+            "step6": "<p class=\"center_\">選擇想要查看的<br>國家</p>",
+            "step7": "<p class=\"center_\">選擇指標粉絲團</p>",
+            "step8": "<p class=\"center_\">選擇您的粉絲團，<br>並輸入想要進行比較的<br>競品粉絲團網址<br><br>至少需輸入一個，也可新增多個競品粉絲團加入比較</p>",
+            "step9": "<p class=\"\">選擇產業的類別</p>",
+            "step10": "<p class=\"center_\">熱力圖將顯示最近一個月<br>粉絲上線時間的分析，<br>顏色越深代表粉絲上線情形越活躍</p>",
+            "step11": "<p class=\"center_\">圖表呈現方式可自行設定為直方圖或折線圖</p>",
+            "step12": "<p class=\"center_\">分析結果下方將以折現圖表呈現<br>粉絲團回應率與該產業之<br>回應率平均值的比較</p>",
+            "step13": "<p class=\"center_\">點選送出，開始分析</p>",
+            "step14": "<p class=\"\">點選開始分析</p>"
+        },
+        "histoy": {
+            "title": "分析紀錄",
+            "field": {
+                "title": "分析粉絲團",
+                "type": "類別",
+                "date_": "分析時間"
+            }
+        },
+        "result": {
+            "field": {
+                "index_page": "指標粉絲團",
+                "add_competitors": "新增比較品牌粉絲團",
+                "comparison_period": "比較時間區段",
+                "pagename": "品牌",
+                "engagement_rate":"回應率",
+                "followers": "追蹤數",
+                "engagement": "回應數",
+                "posts": "篇數",
+                "f_2_c": "回應率=(心情數+留言數+分享數+影片觀看數*0.3)/期間貼文篇數/追蹤數",
+                "f_3_c": "回應數=心情數+留言數+分享數",
+                "f_4": "回應率% (回應數/篇數/追蹤數 x 100%)"
+            },
+            "title": "分析結果圖表",
+            "title_2": "產業Benchmark圖表",
+            "title_3": "產業Benchmark值",
+            "analysis_period": "分析時段"
+        }
+    },
+    "brenchmark": {
+        "title": "產業Benchmark比較",
+        "subtitle": "查看 <span class=\"hight_light\">產業Benchmark</span>，一目瞭然產業走向",
+        "field": {
+            "query_range": "選擇欲查看的時段",
+            "select_category": "選擇欲查找之產業類別",
+            "select_country": "選擇欲查找之國家",
+            "pagename_select_text": "選擇或輸入指標粉絲團"
+        },
+        "robot": {
+            
+        },
+        "tutorial": {
+
+        },
+        "result": {
+
+        }
+    },
+    "atm": {
+        "title": "臉書粉絲專頁價值ATM",
+        "subtitle": "小編俠帶你透過價值ATM，讓你更了解<span class=\"hight_light\">品牌行銷表現優劣</span>",
+        "field": {
+            "dialog_1": "粉絲團不能超過5個",
+            "dialog_3": "粉絲團網址名稱應為:",
+            "dialog_4": "粉絲團不能只有1個",
+            "dialog_5": "粉絲團網址不能重複",
+            "dialog_6": "確定要即時分析此",
+            "dialog_7": "個粉絲團嗎？這可能會需要執行10~30分鐘不等的時間！",
+            "pagename_select_text": "選擇或輸入指標粉絲團",
+            "pagename_select_text_c": "欄位新增至多5個",
+            "add_more_page": "新增粉絲團輸入列"
+        },
+        "robot": {
+            "intro": "幫你計算出「粉絲專頁價值」多少錢：透過您與競品粉絲專頁的「價值明細表」，取自「粉絲數」、「按讚數」、「留言數」及「分享數」等影響力指標來分析之。"
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">幫助您了解粉絲上線的時間，並分析發佈貼文的最佳時機</p>",
+            "step2": "<p class=\"center_\">選擇或輸入您的粉絲團，<br>並輸入想要進行比較的競品粉絲團網址<br><br>至少需輸入一個，也可新增<br>多個競品粉絲團加入比較</p>",
+            "step3": "<p class=\"\">分析結果將顯示您的粉絲團與競品粉絲團近一個月的價值明細表，內容包含粉絲數、按讚數、留言數、分享數、總現值等指標之數值與價值</p>",
+            "step4": "<p class=\"center_\">點選確認，開始分析</p>"
+        },
+        "result": {
+            "field": {
+                "dialog_1": "你確定要刪除本筆分析紀錄嗎？",
+                "weight": "加權值",
+                "followers": "粉絲數",
+                "reactions": "按讚數",
+                "comments": "留言數",
+                "shares": "分享數",
+                "current_value": "現值",
+                "ranking": "排名",
+                "dialog_2": "資料爬取模組執行中，查詢功能暫時無法使用，請稍後再回來看結果。",
+                "dialog_3": "分析完成，請查看下方分析紀錄",
+                "dialog_4": "此筆資料已在記錄內",
+                "dialog_5": "已達到<span class=\"_highlight\">儲存上限10筆紀錄</span>請刪除至少一個先前的紀錄<span class=\"small_highlight\">（建議先下載CSV檔案後刪除）</span>，若未刪除則會自動刪除最後一筆紀錄，<br><br>請問是否繼續儲存？",
+                "dialog_6": "確定儲存此筆資料？",
+                "value": "價值"
+            },
+            "title": "近一個月價值明細表",
+            "query_again": "重新查詢"
+        },
+        "history": {
+            "title": "先前分析的紀錄",
+            "subtitle": "查看先前分析過的粉絲價值",
+            "pagename": "查詢品牌",
+            "analysis": "查詢時間",
+            "query_btn": "查詢"
+        }
+    },
+    "aboutus": {
+        "title": "設定",
+        "field": {
+            "my_plan": "我的方案",
+            "current_plan": "目前方案",
+            "plan_features": "方案功能",
+            "plan_expiry": "方案到期時間",
+            "change_plan_btn": "變更方案",
+            "mgm_btn": "推薦$400",
+            "plan_intro": "方案介紹",
+            "renew_btn": "續訂服務",
+            "linked_fanpage_title": "連結的粉絲團",
+            "manage_pages_btn": "管理粉絲團",
+            "delete_user": "刪除帳戶",
+            "contact_": "聯繫方式",
+            "expired": "已到期",
+            "days": "天",
+            "remain": "剩下",
+            "free_unitl": "免費試用至 ",
+            "free_until_2": " 後轉換成",
+            "after_plan": "此方案結束後續為",
+            "after_plan_2": "期限至"
+        },
+        "fanpage_management_modal": {
+            "title" : "請選擇欲連結的粉絲團"
+        },
+        "basic_info_container": {
+            "title": "基本資訊",
+            "email_reg": "註冊信箱",
+            "contact_method": "聯繫方式",
+            "change": "變更",
+            "create": "新增",
+            "paid_setting": "帳務設定",
+            "cradit_card": "付款卡號",
+            "address": "帳單地址",
+            "company_no": "統一編號",
+            "paid_view_btn": "檢視帳單",
+            "email_for_invoice": "發票寄送信箱",
+            "dialog_1": "請在「信用卡管理」新增信用卡",
+            "dialog_2": "地址未設定",
+            "select_": "請選擇",
+            "dialog_3": "統一編號未設定"
+        },
+        "change_success": "變更成功",
+        "levelTextArr": ["免費版", "初階版", "進階版", "高階版", "免費試用版本", "一年初階版", "一年進階版", "一年高階版"],
+        "payment_success": "付款成功",
+        "payment_list_container": {
+            "title": "帳單列表",
+            "field": {
+                "item": "品項",
+                "item_no": "訂單編號",
+                "amount": "費用",
+                "credit_card": "信用卡號",
+                "invoice_no": "發票號碼",
+                "payment_time": "付款時間"
+            }
+        },
+        "feature_video_title": "功能簡介影片",
+        "confirm_delete": "您確定要刪除此帳戶？一旦刪除帳戶所有資料皆無法復原！"
+    },
+    "level_intro": {
+        "mgm_float": "推薦領<br>$400",
+        "buy_now_btn": "立即購買",
+        "connect_page_text": "無法綁定粉絲團",
+        "connect_page_text_2": "限綁定",
+        "connect_page_text_3": "個粉絲團",
+        "o_p": "原價",
+        "field": {
+            "dialog_1": "無法變更，前期方案尚未到期",
+            "dialog_2": "您目前在使用試用版",
+            "dialog_3": "您必須在到期前10天內才能降級為月付方案",
+            "modal": {
+                "dialog_1": "您",
+                "dialog_2": "剩餘",
+                "dialog_3": "天的退費 $",
+                "dialog_4": "元，將從新方案",
+                "dialog_5": "費用 $",
+                "dialog_6": "元扣除後，刷卡金額為 $",
+                "dialog_7": "0元(退款費用大於訂閱費用恕不退費)",
+                "dialog_8": "元"
+            }
+        }
+    }
+    // 
+    {
+  "friends": {
+    "banner": {
+      "topTitle": "推薦有禮｜最高領 $400 科學金",
+      "title1": "好友拉拉隊",
+      "title2": "科學金",
+      "title2Light": "Double Get",
+      "comment": "好友註冊成功即獲得 $50，推薦越多賺越多！",
+      "btnInvite": "立即邀約",
+      "btnDetail": "詳情請見活動辦法"
+    },
+    "invite": {
+      "title": "選擇以何形式發送邀請？",
+      "shareLink": "分享你的邀請連結",
+      "shareEmail": "分享你的邀請信",
+      "placeholderLink": "專屬推薦連結",
+      "placeholderEmail": "輸入朋友Email",
+      "btnCopy": "複製",
+      "btnSend": "發送",
+      "commentEmail": "*可輸入多組電子郵件，請以空白鍵區隔",
+      "shareTo": "分享至"
+    },
+    "steps": {
+      "title": "三步驟完成推薦任務！",
+      "step1Title": "送出邀請",
+      "step1Content": "複製你的邀請連結，或輸入朋友Email，一鍵送出！",
+      "step2Title": "好友註冊成功",
+      "step2Content": "好友註冊成功，即視為有效推薦！",
+      "step3Title": "一起領獎勵！",
+      "step3Content": "邀請人輕鬆賺科學金，好友免費體驗「高階版」！"
+    },
+    "progress": {
+      "title": "推薦進度條",
+      "invite": "邀請人數",
+      "reward": "累積金額",
+      "friend": "位好友"
+    },
+    "stat": {
+      "invited": "邀請好友數",
+      "completed": "完成註冊人數",
+      "credits": "累積科學金"
+    },
+    "faq": {
+      "q1": "推薦好友要完成什麼任務才算成功？",
+      "a1": "好友需透過你的專屬連結註冊，並完成帳號綁定者(包含粉絲專頁)，即視為推薦成功。完成後你就可以獲得 NT$50 科學金！邀請越多領越多！",
+      "q2": "什麼時候會收到推薦獎勵？",
+      "a2": "完成後推薦人將會於 7 個工作天內收到科學金。",
+      "q3": "被推薦人（好友）什麼時候可以使用高階版？",
+      "a3": "現在新戶只要完成註冊，即可啟用高階版 1 個月體驗，無須付款。",
+      "q4": "推薦越多好友會有什麼額外獎勵？",
+      "a4": "有的！每成功推薦 1 人可獲得 NT$50 科學金，累積 5 位好友，最高可拿 NT$400 科學金！",
+      "q5": "如果朋友忘記使用我的推薦連結怎麼辦？",
+      "a5": "很抱歉，系統無法補登推薦紀錄。請提醒朋友一定要從你的專屬連結註冊喔！"
+    },
+    "disclaimer": {
+      "title": "免責聲明與注意事項",
+      "list": [
+        "本活動僅限透過本頁提供之專屬推薦碼或推薦連結註冊，並完成帳號綁定者（含粉絲專頁），方視為有效推薦。未依此流程註冊者將不列入獎勵計算。",
+        "如被推薦人未完成綁定、重複註冊、使用虛假帳號，或涉及違規操作（包含但不限於灌帳、洗帳號等），該筆推薦紀錄將視為無效，推薦人不得領取獎勵。",
+        "平台為維護活動公平性，保留審核並取消異常推薦紀錄之權利，包括但不限於非真實用戶、惡意操作、刷單行為等，並有權暫停或終止相關帳號之參與資格。",
+        "所有推薦所獲之科學金與體驗權益不得轉讓、兌現、折抵其他商品或服務，並僅限推薦人本人帳號使用，不得代領、轉售或共享。",
+        "若被推薦人未透過推薦人提供之專屬連結或推薦碼註冊，視為放棄本活動參與資格，系統將無法補發推薦獎勵，亦不接受事後人工補登。",
+        "科學金僅限成功綁定 Facebook 粉絲專頁之帳號使用。若無綁定粉絲專頁，則無法使用累積之科學金。",
+        "每一帳號可使用之科學金上限為 NT$400。即使累積超過，亦無法再折抵更多金額。",
+        "主辦單位科學小編俠保留隨時調整、終止活動，或修改推薦辦法與獎勵內容之最終權利，恕不另行個別通知。一切最新內容以本頁公告為準。"
+      ]
+    }
+  }
+}
+
+}
+
+
