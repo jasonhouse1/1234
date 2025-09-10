@@ -1,0 +1,1571 @@
+{
+    "common": {
+        "website_name": "Social SUPER MANager",
+        "analysis": {
+            "title": "My Analysis",
+            "kpireach": "KPI Achievement Rate",
+            "kpicompare": "Comparison Across Time Periods",
+            "interact": {
+                "title": "Interact",
+            "pea": "Post Performance Table",
+            "theme": "Topic Analysis",
+            "textCloud": "Interactive Word Cloud"
+            },
+            "audience": {
+                "title": "Audience",
+                "audience-analysis": "Audience Insights",
+                "unfollow-fans-analysis": "Analysis of Reasons for Unfollowing"
+            },
+            "onlinetime": "Publish Time Analysis",
+            "competitors": {
+                "title": "Competitors",
+            "ana": "Competitor Comparison",
+            "top-ana": "Hot Topics / Domestic & Global TOP",
+            "top-ana-2": "Hot Topics TOP",
+            "brenchmark": "Industry Benchmark",
+            "brenchmark2": "Industry Benchmark Comparison"
+            },
+            "atm": "Social Value",
+            "atm2": "Facebook Page Value ATM",
+            "warning": "Monitoring & Crisis Alert",
+            "ranking": {
+            "top-followed-count": "Industry Follower Ranking",
+            "top-interact-rate": "Industry Engagement Rate Ranking",
+            "top-post": "Industry Top–Responded Posts",
+            "top-atm": "Industry Value Ranking",
+            "custom-page": "Create Custom Page"
+            }
+            
+        },
+        "cancel": "Cancel",
+        "save": "Save",
+        "confirm_btn": "Confirm",
+        "view": "View ",
+        "delete": "Delete",
+        "start_analysis": "Confirm",
+        "no_data_text": "No data",
+        "setting_complelely": "Setup Completed",
+        "page_classify": [
+            { "index": "art_industry", "name": "Arts & Culture" },
+            { "index": "bank_finance", "name": "Banking & Finance" },
+            { "index": "outdoor", "name": "Outdoor" },
+            { "index": "health_beauty", "name": "Health & Beauty" },
+            { "index": "books", "name": "Books" },
+            { "index": "automotive", "name": "Automotive & Bicycles" },
+            { "index": "cinema", "name": "Cinemas" },
+            { "index": "medical", "name": "Medical Facilities" },
+            { "index": "fashion", "name": "Apparel, Bags & Accessories" },
+            { "index": "organization", "name": "Organizations" },
+            { "index": "drinks_alcohol", "name": "Beverages & Alcohol" },
+            { "index": "education", "name": "Education & Schools" },
+            { "index": "electronics", "name": "Electronics" },
+            { "index": "entertainment", "name": "Entertainment" },
+            { "index": "chemical", "name": "Chemicals" },
+            { "index": "religion", "name": "Religion" },
+            { "index": "food_bakery", "name": "Food & Bakery" },
+            { "index": "furniture_home", "name": "Furniture & Home" },
+            { "index": "other_1", "name": "Other Category 1" },
+            { "index": "games", "name": "Gaming" },
+            { "index": "hotel", "name": "Hotels & Lodging" },
+            { "index": "products_services", "name": "Products & Services" },
+            { "index": "insurance", "name": "Insurance" },
+            { "index": "information_tech", "name": "Information Technology" },
+            { "index": "jewelry_watches", "name": "Jewelry & Watches" },
+            { "index": "media", "name": "Media" },
+            { "index": "movie_industry", "name": "Film Industry" },
+            { "index": "museum", "name": "Museums" },
+            { "index": "pharma_biotech", "name": "Pharmaceuticals & Biotech" },
+            { "index": "place", "name": "Venues" },
+            { "index": "publisher", "name": "Publishers" },
+            { "index": "tools_equipment", "name": "Tools & Equipment" },
+            { "index": "real_estate", "name": "Real Estate & Architecture" },
+            { "index": "restaurant", "name": "Restaurants" },
+            { "index": "store_brand", "name": "Retail & Industry Brands" },
+            { "index": "other_4", "name": "Other Category 4" },
+            { "index": "agriculture_mining", "name": "Agriculture & Mining" },
+            { "index": "telecom", "name": "Telecommunications" },
+            { "index": "transportation", "name": "Transportation" },
+            { "index": "travel", "name": "Travel" },
+            { "index": "tv_program", "name": "TV Shows" },
+            { "index": "tv_station", "name": "TV Networks" },
+            { "index": "other_2", "name": "Other Category 2" },
+            { "index": "government", "name": "Government Agencies" },
+            { "index": "ad_agency", "name": "Ad & Media Agencies" },
+            { "index": "political_party", "name": "Political Parties" },
+            { "index": "other_5", "name": "Other Category 5" },
+            { "index": "public_figure", "name": "Public Figures" },
+            { "index": "dating", "name": "Relationships" },
+            { "index": "toys", "name": "Toys" },
+            { "index": "law", "name": "Legal" },
+            { "index": "massage", "name": "Massage" },
+            { "index": "photography", "name": "Photography" },
+            { "index": "wedding", "name": "Weddings" },
+            { "index": "cleaning", "name": "Cleaning Services" },
+            { "index": "appliances", "name": "Appliances" },
+            { "index": "agency", "name": "Talent Agencies" },
+            { "index": "other_3", "name": "Other Category 3" },
+            { "index": "movie", "name": "Movies" },
+            { "index": "news_media", "name": "News & Media" },
+            { "index": "tv_show", "name": "Programs" },
+            { "index": "doctor", "name": "Doctors" },
+            { "index": "children", "name": "Children" },
+            { "index": "pets", "name": "Pets" },
+            { "index": "sports", "name": "Sports" },
+            { "index": "fun", "name": "Fan Pages" }
+        ],
+        "page_country": {
+            "Taiwan": "tw",
+            "United States": "us",
+            "Japan": "jp",
+            "South Korea": "kr",
+            "Southeast Asia (New Southbound)": "sa",
+            "United Kingdom": "gb",
+            "Europe": "eu"
+        }
+    },
+    "unloginHeader": {
+        "key_features": "Key Features",
+        "plan_and_price": "Plans & Pricing",
+        "faq": "FAQ",
+        "contact_us": "Contact Us",
+        "login": "Login",
+        "community_ranking": "Community Leaderboard",
+        "friends_mgm":"Earn $400",
+        "dashboard": "Dashboard",
+        "free_icon": "Free",
+        "side_buy_now": "Buy<br>Now"
+    },
+    "header": {
+        "community_ranking": "Community Leaderboard",
+        "analysis": "My Analysis",
+        "tutorial": "Tutorial",
+        "member": {
+            "level_intro": "Plan Overview",
+            "aboutus": "Setting",
+            "logout": "Logout"
+        },
+        "noti": {
+            "title": "Notifications",
+            "clear_all_noti": "Clear All",
+            "no_noti": "No Notifications"
+        },
+        "login_register": "Login / Sign Up",
+        "kerker": {
+            "show_kerker": "Show ㄎㄎ",
+            "hide_kerker": "Hide ㄎㄎ"
+        },
+        "dashboard": "Dashboard"
+    },
+    "intro": {
+        "card1": {
+            "uppon_subtitle_": "The Tech Hero Saving Content Creators",
+            "subtitle_": "AKA The Content Creator’s Career Saver",
+            "btn": "Start Your 30-Day Free Trial Now"
+        },
+        "card2": {
+            "title": "The pride of Taiwan! This world-leading big data diagnosis system is your best social media management and activity guide",
+            "kpi_reach": {
+                "title": "KPI Analysis",
+                "content": "Periodical analysis of data and performance reviews"
+            },
+            "ana": {
+                "title": "Analysis of Competitors",
+                "content": "Know yourself, know your enemy, and you will win every battle"
+            },
+            "oag": {
+                "title": "Operational Analysis Guide",
+                "content": "All-in-one service: from post topics to audience insights"
+            },
+            "ranking": {
+                "title": "Industry Ranking List",
+                "content": "Instant access to actionable industry data"
+            }
+        },
+        "card3": {
+            "title": "Why do you absolutely need a Social SUPER MANager?!",
+            "slogan_cover": {
+                "section03-fonts-m": "A practical guide to <span class=\"primary-green fw-bold\">social media success</span>",
+                "section03-rwd-text-column-1": "The most professional social media analysis methods",
+                "section03-rwd-text-column-2": "Skip hundreds of hours of tedious data crunching",
+                "section03-rwd-text-center-1": "Helps the content creator",
+                "section03-rwd-text-center-2": "save time, effort, and hassle",
+                "section03-rwd-text-center-3": "",
+                "section03-rwd-text-center-4": "Also provides ",
+                "section03-rwd-text-center-5": "expert advice",
+                "section03-rwd-text-center-6": " to strategically guide your next steps!",
+                "section03-fonts-ml-1": "The Social SUPER MANager is your ",
+                "section03-fonts-ml-2": "best social media coach!"
+            },
+            "section03-policy": {
+                "title": "5 Key Pain Points for Content Creators and How We Solve Them",
+                "section03-card": [
+                    {
+                        "title": "Execution Plans and KPI:<br>Don't know what to do?",
+                        "content-1": "Compare Performance Analysis and KPI Across Time Periods",
+                        "content-2": "Data analysis with clear and concise charts"
+                    },
+                    {
+                        "title": "Don’t know what kind of<br>content followers enjoy?",
+                        "content-1": "Value Calculator Interactive Word Cloud",
+                        "content-2": "Gain deep insights into fans’ preferences"
+                    },
+                    {
+                        "title": "Exhausted from dealing<br>with algorithm changes?",
+                        "content-1": "Hot Topics",
+                        "content-2": "Keep up with trending topics and ride the wave of industry buzz"
+                    },
+                    {
+                        "title": "Too many zombie fans?<br>Craving real, active fans?",
+                        "content-1": "Audience Analysis",
+                        "content-2": "See through fan behavior"
+                    },
+                    {
+                        "title": "What is social<br>media performance?<br>How do you implement it ?",
+                        "content-1": "Exclusive Topic Analysis",
+                        "content-2": "Plan upcoming posts to maximize effectiveness"
+                    }
+                ]
+            }
+        },
+        "card4": {
+            "title": "Key Features",
+            
+            "feature_list": [
+                {
+                    "title": "KPI Analysis",
+                    "content": "KPI achievement rates & comparison of performance across time periods, providing a complete digital analysis"
+                },
+                {
+                    "title": "Operational Analysis Guide",
+                    "content": "Topic analysis, interactive word cloud, post performance chart, audience analysis, and reasons for unfollowing.<br>Fully understand the fan page, posts, and fans all in one go! "
+                },
+                {
+                    "title": "Competitor Analysis",
+                    "content": "Competitor comparison, top 10 global and local brands, industry benchmark.<br>Analyze engagement trends and preferences of industry-specific audiences.<br>Bring in the newest creative ideas.  Know yourself and your enemy in order to win every battle"
+                },
+                {
+                    "title": "Industry rankings",
+                    "content": "Provides follower and response rate comparisons, top-responded posts, and fan page rankings. Understand industry followers and engagement performance, compare fan preferences and brand competitiveness, and accurately grasp key market trends."
+                }
+            ],
+            "feature_inner_btn_text": "Start Now"
+        },
+        "card5": {
+            "title": "Discover what Super MANager can do for you"
+        },
+        "card6": {
+            "title": "Information",
+            "subtitle": {
+                "limit_discount": "Limited-Time Offer",
+                "limit_discount_2": "",
+                "limit_discount_3": "Join now and enjoy a 30-day free trial!"
+            },
+            "info_table": {
+                "tab": {
+                    "monthly": "Monthly Plan",
+                    "yearly": "Annual Plan"
+                },
+                "table_height": "1228",
+                "table": [
+                    {
+                        "title": "Super Worth It! Track Industry Rankings and Trends – For Free!",
+                        "btn_text": "Get Started for Free",
+                        "features": [
+                            "Industry Follower Ranking",
+                            "Industry Response Rate Ranking",
+                            "Industry Top–Responded Posts",
+                            "Industry Value Ranking"
+                        ]
+                    },
+                    {
+                        "title": "Basic Plan –<br> ${onSale1}/{payType}",
+                        "subtitle": "Original Price ${price1}",
+                        "btn_text": "I'm interested.",
+                        "features": [
+                            { "text": "Industry Follower Ranking" },
+                            { "text": "Industry Response Rate Ranking" },
+                            { "text": "Industry Top–Responded Posts" },
+                            { "text": "Industry Value Ranking" },
+                            { "text": "KPI Achievement Rate", "class": "primary-blue" },
+                            { "text": "Comparison Across Time Periods", "class": "primary-blue" },
+                            { "text": "Post Performance Table", "class": "primary-blue" },
+                            { "text": "Topic Analysis", "class": "primary-blue" },
+                            { "text": "Publish Time Analysis", "class": "primary-blue" },
+                            { "text": "Industry Benchmark", "class": "primary-blue" },
+                            { "text": "Industry Hot Topics", "class": "primary-blue" },
+                            { "text": "Social Value Calculator", "class": "primary-blue" },
+                            { "text": "Interactive Word Cloud", "class": "primary-blue" }
+                        ]
+                    },
+                    {
+                        "title": "Pro Plan –<br> ${onSale2}/{payType}",
+                        "subtitle": "Original Price ${price2}",
+                        "btn_text": "I'm interested.",
+                        "features": [
+                            { "text": "Industry Follower Ranking" },
+                            { "text": "Industry Response Rate Ranking" },
+                            { "text": "Industry Top–Responded Posts" },
+                            { "text": "Industry Value Ranking" },
+                            { "text": "KPI Achievement Rate" },
+                            { "text": "Comparison Across Time Periods" },
+                            { "text": "Post Performance Table" },
+                            { "text": "Topic Analysis" },
+                            { "text": "Publish Time Analysis" },
+                            { "text": "Industry Benchmark" },
+                            { "text": "Industry Hot Topics" },
+                            { "text": "Social Value Calculator" },
+                            { "text": "Interactive Word Cloud" },
+                            { "text": "Analysis of Reasons for Unfollowing", "class": "primary-blue" },
+                            { "text": "Audience Insights", "class": "primary-blue" },
+                            { "text": "Competitor Comparison", "class": "primary-blue" }
+                        ]
+                    },
+                    {
+                        "title": "Premium Plan –<br> ${onSale3}/{payType}",
+                        "subtitle": "Original Price ${price3}",
+                        "btn_text": "I'm interested.",
+                        "features": [
+                            { "text": "Industry Follower Ranking" },
+                            { "text": "Industry Response Rate Ranking" },
+                            { "text": "Industry Top–Responded Posts" },
+                            { "text": "Industry Value Ranking" },
+                            { "text": "KPI Achievement Rate" },
+                            { "text": "Comparison Across Time Periods" },
+                            { "text": "Post Performance Table" },
+                            { "text": "Topic Analysis" },
+                            { "text": "Publish Time Analysis" },
+                            { "text": "Industry Benchmark" },
+                            { "text": "Industry Hot Topics" },
+                            { "text": "Social Value Calculator" },
+                            { "text": "Interactive Word Cloud" },
+                            { "text": "Analysis of Reasons for Unfollowing" },
+                            { "text": "Audience Insights" },
+                            { "text": "Competitor Comparison" },
+                            { "text": "Report Generator", "class": "primary-blue" },
+                            { "text": "Monitoring & Crisis Alert", "class": "primary-blue" },
+                            { "text": "Top 10 in the Industry Globally", "class": "primary-blue" }
+                        ]
+                    }
+                ]
+            },
+            "level-intro-modal-container-2": {
+                "confirm_btn": "Confirm"
+            },
+            "section06-subTitle": "For higher needs, feel free to contact us",
+            "detail_btn": "View detail",
+            "detail_titles": [
+                "Free", "Basic Plan<br />($299/month)", "Pro Plan<br />($799/month)", "Premium Plan<br />($1,499/month)"
+            ],
+            "detail_features": [
+                "KPI Achievement Rate",
+                "Comparison Across Time Periods",
+                "Post Performance Table",
+                "Analysis of Reasons for Unfollowing",
+                "Topic Analysis",
+                "Topic Operations",
+                "Fan Page Monitoring Report Email + Crisis Alert",
+                "Audience Insights",
+                "Publish Time Analysis",
+                "Competitor Comparison",
+                "Industry Benchmark Evaluation",
+                "Industry Hot Topics",
+                "Top 10 in the Industry Globally",
+                "Social Value Calculator",
+                "Interactive Word Cloud",
+                "Industry Follower Ranking (Taiwan/Global)",
+                "Industry Engagement Rate Ranking (Taiwan/Global)",
+                "Industry Top–Responded Posts (Taiwan/Global)",
+                "Industry Value Ranking (Taiwan/Global)"
+            ]
+        },
+        "card7": {
+            "title": "FAQ",
+            "faq_list": [
+                {
+                "q_": "Q: Why should you use Social SUPER MANagers?",
+                "a_": "A: Social SUPER MANagers is an AI-powered tool that analyzes key fan page data, helping social media managers save time and manage fan pages more efficiently."
+                },
+                {
+                "q_": "Q: After logging in, how do I start using Social SUPER MANagers?",
+                "a_": "A: Upon your first login, each feature will include a step-by-step guide. If you're still unsure how to use the tool, you can go to the Settings page to watch tutorial videos."
+                },
+                {
+                "q_": "Q: How many fan pages can be linked to one account?",
+                "a_": "A: The number of fan pages you can link depends on your subscription plan:<br>Basic Plan – 1 fan page<br>Pro Plan – 3 fan pages<br>Premium Plan – 5 fan pages"
+                },
+                {
+                "q_": "Q: Why can't I see the fan page I want to select?",
+                "a_": "A: Possible reasons include:<br>1. The fan page has not been authorized. (Click here to resolve)<br>2. The logged-in account is not an admin of the fan page."
+                },
+                {
+                "q_": "Q: Why can’t I find the information I’m looking for?",
+                "a_": "A: If you can’t find a suitable solution in the FAQ section, please ask your question via the official Social SUPER MANagers LINE account — we’ll get back to you as soon as possible."
+                },
+                {
+                "q_": "Q: Can I request a receipt with a company tax ID (Uniform Invoice Number)?",
+                "a_": "A: Yes. When purchasing a plan, the system will prompt you to enter your company’s tax ID. An electronic invoice will be sent to your designated email after payment. If you need to update the tax ID, go to Settings > Billing Information to make changes."
+                },
+                {
+                "q_": "Q: Where can I find information about payment issues?",
+                "a_": "A: If you have any payment-related questions, please leave a message through the official Social SUPER MANagers LINE account, and we will get back to you as soon as possible."
+                },
+                {
+                "q_": "Q: Is there a time limit for the free trial?",
+                "a_": "A: Yes. After the 30-day free trial, you will need to choose a subscription plan to continue using the service."
+                },
+                {
+                "q_": "Q: How do I switch from a free trial to a paid plan or cancel my subscription?",
+                "a_": "A: After logging in, fill out the payment settings. You can change your plan at any time."
+                },
+                {
+                "q_": "Q: Can I upgrade or downgrade my subscription plan?",
+                "a_": "A: Yes, please go to Settings > My Plan > Change Plan to upgrade or downgrade your plan.<br>• Changing plans requires a new payment. A partial refund will be calculated based on the unused portion of your current plan and applied directly to the cost of the new plan.<br>• If you upgrade, the new plan will take effect immediately after confirmation. If you downgrade, the change will take effect starting next month.<br>※ When switching to a different plan and a refund is involved, the refund amount will be rounded to the nearest cent based on standard rounding rules."
+                },
+                {
+                "q_": "Q: How do I choose the plan that suits me best?",
+                "a_": "A: Choose a plan based on the number of fan pages you need to manage (Basic: 1 page, Pro: 3 pages, Premium: 5 pages)."
+                },
+                {
+                "q_": "Q: How do I cancel my plan?",
+                "a_": "A: After subscribing to a plan, you can view the plan expiry date under Settings > My Plan. The plan will be automatically canceled after it expires. Early cancellation or refunds are not available during the active subscription period."
+                },
+                {
+                "q_": "Q: Can I get a refund after purchasing a plan?",
+                "a_": " A: No, refunds are not available. Please make sure to review everything carefully before subscribing."
+                }
+            ]
+        },
+        "card8": {
+            "title": "Contact Us",
+            "subtitle": "We welcome your valuable feedback. If you have any questions or concerns, please fill out the contact form below and we will get back to you as soon as possible. Thank you!",
+            "form": {
+                "name": "Name",
+                "phone": "Phone",
+                "title": "Title",
+                "message": "Your message",
+                "recapcha": "Please Enter the Veri Code",
+                "btn": "Submit"
+            },
+             "validate": {
+                "name_required": "Name is required",
+                "name_invalid": "Invalid name format",
+                "email_required": "Email is required",
+                "email_invalid": "Invalid email format",
+                "title_required": "Title is required",
+                "title_invalid": "Title must not contain JavaScript code",
+                "phone_required": "Phone number is required",
+                "phone_invalid": "Invalid phone number format",
+                "message_required": "Message is required",
+                "message_invalid": "Message must not contain JavaScript code",
+                "recapcha_required": "Captcha is required",
+                "recapcha_invalid": "Captcha does not match"
+            }
+        },
+        "card9": {
+            "subtitle": "The SuperMan Saving Content Creators",
+            "btn": "Start Now"
+        },
+        "footer": {
+            "contact_us": "Contact Us: {platform} {at} {id}",
+            "return-policy": "Return & Refund Policy",
+            "service-policy": "User Data Terms",
+            "privacy": "Privacy Policy"
+        },
+        "side": {
+            "try_btn": "Buy<br>Now"
+        },
+        "common": {
+            "month": "month",
+            "year": "year"
+        }
+    },
+    "return-privacy": {
+        "title": "Return and Refund Policy",
+        "update_time": "Updated: May 2, 2024",
+        "content":"To ensure you feel secure using all the services and information provided by Social SUPER MANager (hereinafter referred to as \"the Company\"), we hereby explain our return and refund policy to protect your rights. Please read the following carefully:<br>1. The Social SUPER MANager platform utilizes the third-party service NewebPay for credit card online payments. By binding payment information on this platform, users agree to use this third-party service and consent to automatic monthly deductions according to these terms.<br>2. The platform charges users monthly; service fees for the current month will be deducted on the billing date and are non-refundable.<br>3. Project owners may remove their bound payment method at any time and bind a new payment method before the next billing date to ensure continuous operation of the chatbot/analytic management tools.<br>4. The time zone used for billing is UTC +0.<br>5. The holder of the Social SUPER MANager account should use their own credit card to bind payment for service fees. If the account holder uses another individual's credit card (hereinafter referred to as the \"actual payer\"), the Company will deem that the account holder has obtained legal authorization and the actual payer fully acknowledges this payment. Both the account holder and the actual payer have the right to inquire about user account information related to the payment, terminate payments, or make personal information changes specific to the actual payer.<br>6. The Company shall not be liable for compensation in case the platform ceases operation due to force majeure (e.g., natural disasters), interruptions, delays, or communication defects from cloud hosting providers, hardware vendors, third-party service providers, or messaging platforms connected to the chatbot (e.g., Facebook, LINE), or damages caused by other users. The estimated repair time and related messages will be announced on the official fan page or website.<br>7. Users can view and download receipts from their personal billing page upon each successful payment.<br>8. If users upgrade to a paid plan and wish to revert to the free plan after payment, they can make this change on the \"About Me\" page. Changes will take effect on the next billing date, and no refunds will be issued.<br>9. Stopping Payments:<br>a. If users no longer wish to continue payment, they can downgrade to the free plan or remove their payment information on the \"About Me\" page.<br>b. If users remove their payment information from the platform and payment cannot be processed on the next billing date, the plan will automatically downgrade to the free plan, resulting in partial or full loss of functionality.<br>The Company grants users the right to use the provided services. If specific conditions regarding usage fees, duration, or other terms apply, users must adhere to such conditions. Users who have agreed to these terms are not entitled to request termination of service or refund under any circumstances. Even if the service interface displays terms such as \"purchase\" or \"sell,\" the related intellectual property rights or other rights provided by business partners or users are not transferred to the users; only usage rights are granted."
+
+    },
+     "privacy": {
+        "title": "User Data Terms and Privacy Policy",
+        "update_time": "Updated: June 27, 2025",
+       "content":"To ensure you feel secure using all services and information provided by Social SUPER MANager (hereinafter referred to as \"the Company\"), we hereby explain our privacy policy to protect your rights. Please read the following carefully:<br><br>1. Scope of this Privacy Policy: This privacy policy covers how the Company handles personally identifiable information collected during your use of our services. The policy does not apply to linked external websites, nor to personnel not commissioned or managed by the Company.<br><br>2. Collection, Processing, and Use of Personal Data: (1) When you visit the Company’s website or use its provided services, we will, according to the nature of the service, request necessary personal information and process and use this information within the specific scope of its purpose. Without your written consent, the Company will not use personal data for other purposes. When you use interactive functions such as service mailboxes or questionnaires, the Company will retain your name, email address, contact information, and time of usage. (2) During general browsing, the server automatically records relevant actions, including IP address, usage time, browser type, and browsing and clicking records, for internal reference only to improve our services. This information is never disclosed externally. (3) To provide accurate services, we statistically analyze collected data. Statistical results or descriptive text of analyses are presented and may be disclosed for internal research purposes as necessary, without involving personally identifiable information.<br><br>3. External Links: The Company provides links to other websites, allowing users to access other sites through links provided. These linked websites do not fall under the Company’s privacy policy; users must refer to the privacy policies of the linked websites.<br><br>4. Policy for Sharing Personal Data with Third Parties: The Company will never provide, exchange, rent, or sell your personal information to other individuals, groups, private companies, or public authorities, except when there is a legal basis or contractual obligation.<br>The above exceptions include but are not limited to: (1) Your written consent. (2) Explicit legal provisions. (3) Prevention of risks to your life, body, liberty, or property. (4) Cooperation with public authorities or academic research institutions, necessary for public interest statistics or academic research, provided the data has been processed or collected so individuals cannot be identified. (5) Disclosure deemed necessary by website administrators to identify, contact, or take legal action against users whose actions violate terms of service or harm or impede website operations or other users’ rights, or cause damage to any party. (6) Beneficial to your rights. (7) The Company engages vendors to assist in the collection, processing, or use of your personal data, and will supervise and manage these vendors or individuals responsibly.<br><br>5. Use of Cookies to Provide Optimal Services: The Company will place and access our cookies on your computer. If you do not wish to accept cookies, you can adjust your browser’s privacy settings to a higher level, refusing cookies. However, this may cause certain website features to malfunction.<br><br>6. Amendments to the Privacy Policy: The Company’s privacy policy may be amended as needed. Any amendments will be published on the Company’s website."
+
+    },
+    "layout": {
+        "cookie_agree": {
+            "content": "To provide you with better service, this website uses cookies. If you continue browsing, it means you agree to our cookies policy.",
+            "agree": " Learn about the Privacy Policy",
+            "understand": "I understand"
+        },
+        "please_use_desktop": "Please use the desktop version<br />for a better presentation of complete social media data analysis.",
+        "next_text": "NEXT",
+        "prev_text": "PREV"
+    },
+    "login": {
+        "title": "Login",
+        "comment": "Please log in with a Facebook account that has <span class=\"_bluehighlight\">page management permissions</span>",
+        "btn_text": "Continue with Facebook",
+        "comment_2": "Don’t have an account?",
+        "register_now": "Sign up now",
+        "register": {
+            "title": "The currently logged-in Facebook account has not yet registered with Social SUPER MANager. Would you like to register now?",
+            "register_title": "Registration",
+            "field": {
+                "name": "Username",
+                "phone": "Phone",
+                "agree_terms": "By registering, you agree to the",
+                "agree_terms_2": "Data Usage Policy",
+                "agree_terms_3": "and",
+                "agree_terms_4": "Privacy Policy",
+                "submit_btn": "Submit",
+                "confirm_btn": "Confirm"
+            }
+        }
+    },
+    "home": {
+        "field": {
+            "select_fanpage": "Select Fanpage",
+            "custom_period":["Last 7 Days", "Last 30 Days", "Previous Week", "Previous Month"],
+            "yes": "Yes",
+            "no": "No",
+            "tutorialTextArr": [
+                "Social Super Manager",
+                "KPI Achievement Rate",
+                "Audience Analysis",
+                "Unfollow Fans Analysis",
+                "Monitoring Alerts",
+                "Community Rankings",
+                "Peer Comparison & Engagement",
+                "Competitors & Community Value"
+            ],
+            "function_intro": "Feature Overview",
+            "alert_no": "Unavailable",
+            "maleChtTextArr": [
+                "Males aged 13–17",
+                "Males aged 18–24",
+                "Males aged 25–34",
+                "Males aged 35–44",
+                "Males aged 45–54",
+                "Males aged 55–64",
+                "Males aged 65+"
+            ],
+            "femaleChtTextArr": [
+                "Females aged 13–17",
+                "Females aged 18–24",
+                "Females aged 25–34",
+                "Females aged 35–44",
+                "Females aged 45–54",
+                "Females aged 55–64",
+                "Females aged 65+"
+            ],
+            "warning_1": "No negative comments yet",
+            "warning_2": "Today there are ",
+            "warning_3": " negative comments",
+            "confirm_submit": "Confirm to Submit?",
+            "target_KPI": "Target KPI",
+            "actual_KPI_achieved": "Achieved KPI"
+        },
+        "tutorial": {
+            "step1": "\"Social Super Manager\" uses big data to help you better manage everything about your fan page.",
+            "step2": "This is the KPI Achievement Rate.<br>It helps you review the status of each KPI achievement.<br>Use the button below or go to the 'My Analysis' tab to set KPI achievement rates!",
+            "step3": "This is the Audience Analysis.<br>It helps you confirm whether your fan page target audience is accurate.<br>Use the button below or go to the 'My Analysis' tab to set up Audience Analysis!",
+            "step4": "This is the Unfollow Reasons section.<br>Analyze the number of unfollows during a selected period and review posts from that day to understand the reasons.<br>Click the button or go to 'My Analysis >> Audience' tab to access Unfollow Reasons!",
+            "step5": "This is the Monitoring Alerts section.<br>It helps you track negative comments in real time and notifies you immediately.<br>Click the button or go to the 'My Analysis' tab to access Monitoring Alerts!",
+            "step6": "<div class=\"smaller\">Peer Comparison: Understand progress or decline in metrics within a given period<br><br>Post Performance Table: Detailed breakdown of post data<br><br>Content Analysis: Analyze and understand fan content preferences<br><br>Engagement Word Cloud: Gain deeper insights into fan discussion keywords over time</div>",
+            "step7": "<div class=\"smaller\">Online Time: Discover the best times to post<br><br>Competitor Comparison: See how you perform compared to others<br><br>Hot Topics / Global TOP: Learn your industry audience’s preferences while bringing in creative ideas from other industries<br><br>Community Value: Understand your brand's community value and compare it with competitors</div>",
+            "step8": "<div class=\"smaller\">Followers: See fan rankings within the industry<br><br>Engagement Rate: Understand industry interaction rankings<br><br>Top Engaging Posts: Discover fans’ favorite posts in the industry<br><br>Value Ranking: Compare fan competitiveness across the industry</div>",
+            "dialog_no": "This feature cannot be viewed once a fan page has been selected."
+        },
+        "showDailyPopup": {
+            "title" : "You are currently on a 30-day free \"Premium Plan\" trial. The plan expires on",
+            "extend_btn": "Extend",
+            "skip_btn": "Skip",
+            "friends_mgm_btn": "Earn NT$400"
+        },
+        "left_container": {
+            "dialog_1": "Hi ",
+            "dialog_2": ", hope you're doing well today.",
+            "dialog_3": "Check out the latest status of your fan page!"
+        },
+        "bottom_container": {
+            "left": {
+                "unset_dialog": "It looks like you haven't set your <span class=\"__highlight\">KPI</span> yet.<br />Click the button below to set it up.",
+                "engagements": "Target Eng.",
+                "engagements_2": "Actual Eng.",
+                "ar": "AR",
+                "ar_c": "AR: Achievement Rate<br> *Engagement Rate = Engagements ÷ Reach × 100%",
+                "ar_c_2": "Engagements Formula",
+                "ar_c_3": "(Reactions + Comments + Shares + Clicks + Video Views × ",
+                "ar_c_4": "(Reactions + Comments + Shares + Clicks)",
+                "kpi_desc_container": {
+                    "title": "KPI Achievement Rate (AR)",
+                    "subtitle": "Helps you understand the <span class=\"__highlight\">KPI performance</span> of each metric",
+                    "dialog_1": " KPI AR",
+                    "dialog_2": "Engagement KPI AR is ",
+                    "dialog_3": "Please set a fan page first",
+                    "btn_1": "Edit KPI",
+                    "btn_2": "Show More"
+                }
+            },
+            "middle": {
+                "report_btn": "Generate Report",
+                "health_index": "Health Index"
+            },
+            "right": {
+                "audience_ana_desc_container": {
+                    "title": "Audience Analysis",
+                    "subtitle": "It looks like you haven't <span class=\"__highlight\">set a fan page</span> yet.<br />Let's help you analyze your fans.",
+                    "dialog_1": "Total Followers",
+                    "dialog_2": "Main Audience",
+                    "btn_1": "Set Fanpage",
+                    "btn_2": "Show More"
+                },
+                "unfollow_fans_desc_container": {
+                    "title": "Unfollow Reasons",
+                    "subtitle": "It looks like <span class=\"__highlight\">Unfollow Analysis</span> has not been set up yet.<br />Editor Hero will help you monitor fan unfollows.",
+                    "dialog_1": "Period",
+                    "dialog_2": "Total Unfollows",
+                    "dialog_3": " fans",
+                    "btn_1": "Set Fanpage",
+                    "btn_2": "Show More"
+                },
+                "warning_desc_container": {
+                    "title": "Monitoring Alerts",
+                    "subtitle": "It looks like <span class=\"__highlight\">Monitoring Alerts</span> have not been set up yet.<br />Let Editor Hero help you detect negative comments.",
+                    "btn_1": "Set Alerts",
+                    "btn_2": "View Detail"
+                }
+            }
+        },
+        "kpi_setting_container": {
+            "title": "KPI Achievement Rate Settings",
+            "label_1": "Please set KPI parameters",
+            "followers": "Followers",
+            "reach": "Reach",
+            "engagements": "Engagements",
+            "is_vv": "Include video views in engagements?",
+            "yes": "Yes",
+            "no": "No",
+            "video_views": "Video Views",
+            "peroid": "Set Period"
+        }
+    },
+    "topFollowedCount": {
+        "title": "Followers",
+        "subtitle": "Select <span class=\"hight_light\">Country and Industry!</span>！<br />Understand the industry’s follower rankings and accurately grasp market trends!",
+        "form": {
+            "selectedCountry": "Select Country",
+            "selectedType": "Select Industry"
+        },
+        "result": {
+            "description_1": "You are viewing the follower numbers for :",
+            "description_2": ", ",
+            "description_3": ", the ranking results are shown below: ",
+            "field": {
+                "f_1": "Ranking",
+                "f_2": "Followers",
+                "f_3": "Page Name"
+            },
+            "date_range_": "Reporting Period"
+        },
+        "tutorial" : {
+            "step1": "Understand the social media influence of an industry in a specific region through fan page follower rankings",
+            "step2": "<p class=\"center_\">Select the country<br> or industry to search</p>",
+            "step3": "Click \"Confirm\" to start analysis"
+        },
+        "robot": {
+            "intro": "Understand the industry's social media influence in the local market through the follower rankings of industry fan pages."
+        }
+    },
+    "topInteractRate": {
+        "title": "Response Rate",
+        "subtitle": "Select <span class=\"hight_light\">Country and Industry</span>!<br />Understand the industry's fan page response rankings and accurately grasp market trends!",
+        "form": {
+            "selectedCountry": "Select Country",
+            "selectedType": "Select Industry"
+        },
+        "result": {
+            "description_1": "You are viewing the response rate for :",
+            "description_2": ", ",
+           "description_3": ", the ranking results are shown below: ",
+            "field": {
+                "f_1": "Ranking",
+                "f_2": "Response Rate",
+                "f_2_c": "Response Rate = (Reactions + Comments + Shares + Video Views × 0.3) / Posts / Followers",
+                "f_3": "Page Name",
+                "f_4": "Followers",
+                "f_5": "Posts",
+                "f_6": "Reactions",
+                "f_7": "Comments",
+                "f_8": "Shares",
+                "f_9": "Video Views"
+            },
+            "date_range_": "Reporting Period"
+        },
+        "tutorial" : {
+            "step1": "Understand the social media influence of an industry in a specific region through fan page follower rankings",
+            "step2": "<p class=\"center_\">Select the country<br> or industry to search</p>",
+            "step3": "Click \"Confirm\" to start analysis"
+        },
+        "robot": {
+            "intro": "Understand the industry's social media influence in the local market through the response rate rankings of industry fan pages.",
+            "result": "Video views are multiplied by 0.3 to align with the pros and cons of Facebook's algorithm and prevent data distortion.  Video views do hold value, but are relatively easier to gain, hence the multiplication."
+        }
+    },
+   "topPost": {
+        "title": "Top-Responded Posts",
+        "subtitle": "Select <span class=\"hight_light\">Country and Industry</span>!<br />Understand the industry's fan page response rankings and accurately grasp market trends!",
+        "form": {
+            "selectedCountry": "Select Country",
+            "selectedType": "Select Industry"
+        },
+        "result": {
+            "description_1": "You are viewing the top-responded posts for :",
+            "description_2": ", ",
+           "description_3": ", the ranking results are shown below: ",
+            "field": {
+                "f_1": "Ranking",
+                "f_2": "Response Rate",
+                "f_2_c": "Response Rate = (Reactions + Comments + Shares + Video Views × 0.3) / Followers",
+                "f_3": "Page Name",
+                "f_4": "Messages",
+                "f_5": "Followers",
+                "f_6": "Reactions",
+                "f_7": "Comments",
+                "f_8": "Shares",
+                "f_9": "Video Views"
+            },
+            "date_range_": "Reporting Period"
+        },
+        "tutorial" : {
+            "step1": "Understand the social media influence of an industry in a specific region through fan page follower rankings",
+            "step2": "<p class=\"center_\">Select the country<br> or industry to search</p>",
+            "step3": "Click \"Confirm\" to start analysis"
+        },
+        "robot": {
+            "intro": "Understand the industry's social media influence in the local market through the \"Top-Responded Posts Ranking\" of industry fan pages.",
+            "result": "Video views are multiplied by 0.3 to align with the pros and cons of Facebook's algorithm and prevent data distortion.  Video views do hold value, but are relatively easier to gain, hence the multiplication."
+        }
+    },
+    "topAtm": {
+         "title": "Value Ranking",
+         "subtitle": "Select <span class=\"hight_light\">Country and Industry</span>!<br />Understand the industry's fan page response rankings and accurately grasp market trends!",
+        "form": {
+            "selectedCountry": "Select Country",
+            "selectedType": "Select Industry"
+        },
+        "result": {
+            "description_1": "You are viewing the value for :",
+            "description_2": ", ",
+           "description_3": ", the ranking results are shown below: ",
+            "field": {
+                "f_1": "Ranking",
+                "f_2": "Value (NT$)",
+                "f_2_c": "Click \"ㄎㄎ]\" to view the detailed chart.",
+                 "f_2_c_img": "-en",
+                "f_3": "Page Name"
+            },
+            "date_range_": "Reporting Period"
+        },
+        "tutorial" : {
+            "step1": "Understand the social media influence of an industry in a specific region through fan page follower rankings",
+            "step2": "<p class=\"center_\">Select the country<br> or industry to search</p>",
+            "step3": "Click \"Confirm\" to start analysis"
+        },
+        "robot": {
+            "intro": "Understand the industry's social media influence in the local market through the value ranking of industry fan pages.",
+            "result": "Understand the social influence of an industry in a specific region through the value ranking of its fan pages."
+        },
+        "understand_atm": "View Detail"
+    },
+    "kpireach": {
+        "title": " KPI Achievement Rate",
+        "subtitle": " Automatically calculate KPI achievement status by inputting data",
+        "field": {
+            "page_placeholder": " Please select the fanpage",
+            "title" : "Please select the metrics and number of KPIs",
+            "followers": " Total followers required to achieve the goal",
+            "followers_2": "followers",
+            "kpi_placeholder": "Please enter the target KPI value",
+            "reach": "Reach",
+            "interact": "Engagement",
+            "interact_tooltip": "*Engagement is calculated as: Reactions + Comments + Shares + Clicks + Video Views × Video Weight (0.1~1.0)",
+            "is_video_views": " Should the engagement count include video views?",
+            "please_enter_weight": "Please enter a value (0~1.0)",
+            "yes": "Yes",
+            "no": "No",
+            "video_views": "Video Views",
+            "options": "option",
+            "date_period": "Date period",
+            "rules": {
+                "r_1": "Please fill in at least one metric.",
+                "r_2": "lease enter a value between 0 and 1.0 (e.g., 0.3)",
+                "r_3": "Fanpage cannot be empty.",
+                "r_4": "Name cannot be emtpy."
+            },
+            "target_KPI": "Target KPI",
+            "actual_KPI_achieved": "Achieved KPI"
+        },
+        "result": {
+            "target": "Target",
+            "achieved": "Achieved",
+            "interact_count": "Engagements",
+            "title" : {
+                "text_": "KPI Achievement Rate Results:"
+            },
+            "achievement_rate" : "Achievement Rate",
+            "field": {
+                "followers": " Followers",
+                "reach": " Reach",
+                "interact": " Engagement"
+            },
+            "query_again_btn": "Query Again",
+            "kpi_compare_btn": "Compare Periods"
+        },
+        "compare_result": {
+            "field": {
+                "period": "Comparison Period",
+                "post": "Posts",
+                "engagement_rate": "Engagement Rate",
+                "comments": {
+                    "c_1": "engagement rate = (reactions+comments+shares+clicks+video view*",
+                    "c_2": ")/reach x 100%"
+                }
+            },
+            "title": "Comparison Results for a Time Period:",
+            "title_2": "Period B Compared to Period A",
+            "title_3": "Search Another Time Period:",
+            "back_btn": "Search Again"
+        },
+        "robot" : {
+            "intro": "Check the achievement status of each KPI for you!",
+            "intro_2": "<h6 style=\"color: #000;font-family: 'Noto Sans TC', sans-serif;\">You can choose whether to include video views. In general, a weighting factor of 0.3 is recommended to avoid inaccurate results from using a full weight of 1.<br/>Video views have value in Meta’s engagement metrics but are often overlooked.</h6>",
+            "intro_3": "Fill in the information on the right and I'll help you check each KPI status."
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Check the KPI<br>of your fanpage</p>",
+            "step2": "<p class=\"center_\">Select your fanpage</p>",
+            "step3": "<p class=\"center_\">Set your KPI target<br>for this metric</p>",
+            "step4": "<p class=\"\">You can choose whether to include video views. We recommend applying a weighting factor of 0.3 to avoid inflated values. If 'Yes' is selected, the interaction count will include video views based on the weighting you set.</p>",
+            "step5": "<p class=\"center_\">Set your query time range</p>",
+            "step6": "<p class=\"\">Click \"Compare Periods\" to analyze performance differences across timeframes</p>",
+            "step7": "<p class=\"\">You can also define a custom time range to compare results across different periods</p>",
+            "step8": "<p class=\"center_\">Click \"Confirm\" to start the analysis</p>"
+        }
+    },
+     "kpicompare": {
+        "title": "Compare Periods",
+        "subtitle": "Enter data to compare periods and see progress or decline",
+        "field": {
+            "page_placeholder": " Please select the fanpage",
+            "period": "Period ",
+            "func_title": "Engagement Calculation Method:",
+            "func_title_2": "reactions+comments+shares+clicks+video views",
+            "weight_placeholder": "Enter weight values(0~1.0)",
+            "tooltip_1": "You may enter the weight values for video views according to your fanpage interaction calculation method."
+        },
+        "robot" : {
+            "intro": "<h6 style=\"color: #000;font-family: 'Noto Sans TC', sans-serif;\">You can choose whether to include video views. In general, a weighting factor of 0.3 is recommended to avoid inaccurate results from using a full weight of 1.<br/>Video views have value in Meta’s engagement metrics but are often overlooked.</h6>",
+            "intro_2": "In addition to annual comparisons, you can also perform advanced comparisons between different time periods to analyze performance differences.",
+            "intro_3": "See whether your fan page performance has improved or declined — automatically compare results across different time periods."
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\"> Understand fan page performance differences during the selected period</p>",
+            "step2": "<p class=\"center_\">Select your fanpage</p>",
+            "step3": "<p class=\"center_\">Set the two time periods you want to compare</p>",
+            "step4": "<p class=\"\">Engagement will be calculated based on your set weight for video views. It is recommended to apply a 0.3 weight to video views to avoid inflated figures!</p>",
+            "step5": "<p class=\"\">Click \"Confirm\" to start analysis</p>"
+        },
+        "result": {
+            "field" : {
+                "and_text": "and",
+                "period": "Comparison Period",
+                "post": "Posts",
+                "engagement_rate": "Engagement Rate",
+                "comments": {
+                    "c_1": "engagement rate = (reactions+comments+shares+clicks+video view*",
+                    "c_2": ")/reach x 100%"
+                },
+                "followers": "Followers",
+                "reach": "Reach",
+                "interact": "Engagement"
+            },
+            "title": "Comparison Results for a Time Period:",
+            "title_2": "Period B Compared to Period A",
+            "title_3": "Search Another Time Period:",
+            "search_again_btn": "Query Again",
+            "check_kpi_reach_btn": "Check KPI Achievement Rate"
+        }
+    },
+    "pea": {
+        "title": "Post Performance Report",
+        "subtitle": "View all <span class=\"primary-green\">post data</span> and get insights with a topic analysis",
+        "field": {
+            "page_placeholder": " Please select the fanpage",
+            "title": "Select the time period",
+            "video_views": "Video Views",
+            "option": "options",
+            "interact_tooltip": "*Engagement is calculated as: Reactions + Comments + Shares + Clicks + Video Views × Video Weight (0.1~1.0)",
+            "please_enter_weight": "Please enter a value (0~1.0)",
+            "enter": "Confirm"
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">Organize various post metrics for you and analyze post performance</p>",
+            "step2": "<p class=\"center_\">Select your fan page name</p>",
+            "step3": "<p class=\"center_\">Set the analysis period to view performance data for all posts within that time frame</p>",
+            "step4": "<p class=\"center_\">You can choose whether to include video views. It is recommended to weight video views by multiplying by 0.3 to avoid overestimating the video metrics!<br>If \"Yes\" is selected, interactions will be calculated including video views according to the specified weight.</p>",
+            "step5": "<p class=\"center_\">Click here to download the Excel file of the post performance data</p>",
+            "step6": "<p class=\"center_\">Click a column header to sort in descending or ascending order</p>",
+            "step7": "<p class=\"center_\">Save this query result,<br>and proceed to topic analysis</p>",
+            "step8": "<p class=\"center_\">Click Submit to start the analysis</p>"
+        },
+        "robot": {
+            "intro": "<span class=\"fs-4 fw-bold text-center\" style=\"color:#00D8CD;\">Click the button</span>to enter topic analysis!",
+            "intro_2":"Engagement will be calculated based on your set weight for video views. It is recommended to apply a 0.3 weight to video views to avoid inflated figures!",
+            "intro_3":"We've compiled data from various posts to analyze the performance for you"
+        },
+        "history": {
+            "title": "Records of Previous Analyses",
+            "subtitle": "View previously-analyzed post performance reports",
+            "pagename": "Page Name",
+            "analysis": "Analysis",
+            "query_btn": "Query"
+        },
+        "result": {
+            "title": "Post Performance Overview:",
+            "field": {
+                "month": "Month",
+                "total_text": "Total ",
+                "count_text": " records",
+                "showmore": "Show More",
+                "showless": "Show Less",
+                "date": "Date",
+                "content": "Content",
+                "category": "Category",
+                "total_impressions": "Total Impressions",
+                "total_reach": "Total Reach",
+                "organic_reach": "Organic Reach",
+                "paid_reach": "Paid Reach",
+                "shares": "Shares",
+                "reactions": "Reactions",
+                "comments": "Comments",
+                "other_clicks": "Other Clicks",
+                "photo_clicks": "Photo Clicks",
+                "link_clicks": "Link Clicks",
+                "play_clicks": "Play Clicks",
+                "video_views": "Video Views",
+                "video_views_rate": "Video Views Rate",
+                "total_clicks": "Total Clicks",
+                "discussions": "Number of Discussions",
+                "interact_no_vv": "Total Engagement (Excluding Video Views)",
+                "engagement_rate_no_vv": "Engagement Rate (Excluding Video Views)",
+                "interact_with_vv": "Total Engagement (Including Video Views)",
+                "engagement_rate_with_vv": "Engagement Rate (Including Video Views)",
+                "total": "Total",
+                "tooltip": {
+                    "post_impressions": "The number of times any content from or about your fanpage appeared on users",
+                    "totalReach": "The number of users who viewed any content related to your fanpage",
+                    "post_impressions_organic_unique": "The number of users who saw unpaid posts from your fanpage",
+                    "post_impressions_paid_unique": "The number of users who saw paid posts from your fanpage",
+                    "videoViewRate": "(I Video Views / A Total Reach) 100%",
+                    "totalPostClicks": "E Other Clicks + F Photo Clicks + G Link Clicks + H Play Clicks",
+                    "discussionCount": "B Shares + C Reactions + D Comments",
+                    "totalInteractionsWithoutViews": "K Total Clicks + L Discussions",
+                    "totalInteractionsWithViews": "I Video Views + K Total Clicks + L Discussions",
+                    "interactionRateWithoutViews": "(M Total Interactions without Video Views / A Total Reach) 100%",
+                    "interactionRateWithViews": "(O Total Interactions with Video Views / A Total Reach) 100%"
+                }
+            },
+            "save_btn": "Save",
+            "save_to_theme_btn": "Save to Topic Analysis"
+        }
+        
+    },
+     "theme": {
+        "title": "Topic Analysis",
+        "subtitle": "Social Super MANagers <span class=\"primary-green\">breaks down your post topics</span>, helping you understand what your fans truly love!",
+        "field": {
+            "page_placeholder": " Please select the fanpage",
+            "title": "Select the time period",
+            "video_views": "Video Views",
+            "option": "options",
+            "interact_tooltip": "*Engagement is calculated as: Reactions + Comments + Shares + Clicks + Video Views × Video Weight (0.1~1.0)",
+            "please_enter_weight": "Please enter a value (0~1.0)",
+            "enter": "Confirm",
+            "rules": {
+                "r_1": "Please fill in at least one metric.",
+                "r_2": "lease enter a value between 0 and 1.0 (e.g., 0.3)",
+                "r_3": "Fanpage cannot be empty.",
+                "r_4": "Name cannot be emtpy."
+            },
+            "topic_title": "Enter category topic:",
+            "topic_title_2": "(You can type a topic and press Enter to add new options)"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Analyze post topics to understand audience preferences<br>Identify the types of content fans like the most</p>",
+            "step2": "<p class=\"center_\">Select your fan page name</p>",
+            "step3": "<p class=\"center_\">Set the time period you want to analyze</p>",
+            "step4": "<p class=\"\">Please enter a topic category: <br>In addition to the default topics, you can enter a custom category name and press Enter to add your own topic.</p>",
+            "step5": "<p class=\"center_\">Click Submit to start the analysis</p>"
+        },
+        "result": {
+            "title_": " Feeds:",
+            "field": {
+                "month": "Month",
+                "total_text": "Total ",
+                "count_text": " records",
+                "showmore": "Show More",
+                "showless": "Show Less",
+                "date": "Date",
+                "content": "Content",
+                "category": "Category",
+                "total_impressions": "Total Impressions",
+                "total_reach": "Total Reach",
+                "organic_reach": "Organic Reach",
+                "paid_reach": "Paid Reach",
+                "shares": "Shares",
+                "reactions": "Reactions",
+                "comments": "Comments",
+                "other_clicks": "Other Clicks",
+                "photo_clicks": "Photo Clicks",
+                "link_clicks": "Link Clicks",
+                "play_clicks": "Play Clicks",
+                "video_views": "Video Views",
+                "video_views_rate": "Video Views Rate",
+                "total_clicks": "Total Clicks",
+                "discussions": "Number of Discussions",
+                "interact_no_vv": "Total Engagement (Excluding Video Views)",
+                "engagement_rate_no_vv": "Engagement Rate (Excluding Video Views)",
+                "interact_with_vv": "Total Engagement (Including Video Views)",
+                "engagement_rate_with_vv": "Engagement Rate (Including Video Views)",
+                "total": "Total",
+                "theme_type": "Topic Category",
+                "category_": "Topic Category",
+                "rank": "Rank",
+                "category_2": "Topic Category",
+                "engagement_rate": "Engagement Rate",
+                "video_views2": "Video Views",
+                "post": "Posts"
+            },
+            "return_btn": "Return",
+            "return_to_edit": "Return",
+            "analysis": "Analysis",
+            "detail_text_btn": "Click to view the posts under this topic and all fields",
+            "view_best_topic_btn": "View Best Topic Analysis",
+            "view_worst_topic_btn": "View Worst Topic Analysis",
+            "best_topic_title": "Best Topic Analysis",
+            "best_topic_title2": "Best Topic",
+            "best_post_title": "Best Post",
+            "best_suggestion_title": "Suggestion",
+            "memo_text_1": "Based on your analysis of ",
+            "memo_text_2": ", the best-performing topic was ",
+            "memo_text_3": ", achieving an ",
+            "memo_text_4": "engagement rate",
+            "memo_text_5": " of ",
+            "memo_text_6": "With a ",
+            "memo_text_7": " engagement rate of ",
+            "memo_text_8": ", consider creating more similar posts to improve engagement performance.",
+            "worst_topic_title": "Worst Topic Analysis",
+            "worst_topic_title2": "Worst Topic",
+            "worst_post_title": "Worst Post",
+            "memo_text_2_2": ", the worst-performing topic was ",
+            "memo_text_3_2": ", achieving an ",
+            "memo_text_5_2": " of ",
+            "memo_text_8_2": ", consider reducing similar posts in the future to improve engagement effectiveness.",
+            "post_detail": {
+                "post_title": "Content",
+                "total_interact": "Total Engagement"
+            },
+            "result_title_1": "Post Performance Overview:"
+        },
+        "robot": {
+            "intro": "After selecting a classification topic:<br>1. Select the posts that fall under this category and click Save.<br>2. Switch to another classification topic and repeat the selection process.<br>3. Once all posts are categorized, you can proceed with the analysis!",
+            "intro_2":"Engagement will be calculated based on your set weight for video views. It is recommended to apply a 0.3 weight to video views to avoid inflated figures!",
+            "intro_3":"Analyze post topics to understand fan preferences"
+        },
+        "topic_category": {
+            "events": "Events",
+            "brand": "Brand",
+            "product": "Product",
+            "engagement": "Engagement"
+        },
+        "history": {
+            "category_title": "Category:"
+        },
+        "section2": {
+            "feed": "Feed",
+            "enter_tt": "Please enter a topic category",
+            "enter_tt_2": "you can enter a custom category name and press Enter to add",
+            "select_tt": "Please select a topic category",
+            "select_tt_2": "Please select a category, then check the posts below, and press Save to complete",
+            "category": "Category",
+            "select_tt_3": "Check the posts you want to add to the category, then press Save"
+        }
+    },
+    "unfollowFansAnalysis": {
+        "title": "Reasons for Unfollowing",
+        "subtitle": "Understand <span class=\"hight_light\">the reasons behind unfollows</span> by reviewing daily unfollow counts and recent posts!",
+        "field": {
+            "pagename_select_text": "Select your fanpage name",
+            "period_label": "Select the period",
+            "start_btn": "Submit"
+        },
+         "tutorial": {
+            "step1": "<p class=\"center_\">We record the situation surrounding unfollows from your fan page and analyze the reasons to help you avoid actions that may upset your fans.</p>",
+            "step2": "<p class=\"center_\">Select your fan page name</p>",
+            "step3": "<p class=\"center_\">Total unfollows during the selected period</p>",
+            "step4": "<p class=\"center_\">Total unfollows during the selected period</p>",
+            "step5": "<p class=\"center_\">Hover each bar in the chart to see the posts published on that day. If no posts were published on that day, no information will appear.</p>",
+            "step6": "<p class=\"center_\">Click Submit to start the analysis</p>",
+            "step7": "<p class=\"center_\">View posts</p>"
+        },
+        "robot": {
+            "intro": "<div style=\"text-align:center\">We track unfollows from your fan page and analyze the reasons, helping you avoid actions that may turn followers away</div>",
+            "intro_2":"To view the reasons for unfollows, click the bar chart. To return to the post analysis, click the same bar chart again."
+        },
+        "result": {
+            "title": "Unfollow count from ",
+            "title_2": "",
+            "field": {
+                "people": " people",
+                "unfollow_fans_count": "Unfollows",
+                "unit": "Unit",
+                "view_post": "View Post",
+                "view_pre_post": "View Preview Post",
+                "memo_1": " ",
+                "memo_2": " post was published on this day, and ",
+                "memo_3": " follower was lost.",
+                "memo_4": "All published posts",
+                "reactions": "Reactions: ",
+                "comments": "Comments: ",
+                "shares": "Shares: "
+            }
+        }
+    },
+    "warning": {
+        "title": "Monitoring Alerts",
+        "subtitle": " Instantly monitor <span class=\"hight_light\">negative comments</span> on your fan page and receive notifications so you can react promptly.",
+        "field": {
+            "pagename_select_text": "Select your fanpage name",
+            "email_locker_text": "Email will be locked in after input and confirmation",
+            "edit_btn": "Edit Alert Email",
+            "edit_2_btn": "Edit Negative Keywords",
+            "edit_2_label": "[Customize the negative keywords to detect] If any of your comments contain the following “negative keywords,” separate with commas",
+            "nevative_words": "asshole, jerk, bitch, slut, idiot, parasite, bastard, filthy thing, eat shit, eat crap, vulgar, psycho, rotten, trash, ugly, miserable, stupid, dumb, moron, fool, loser, useless, pathetic, brainless, fuck, fucker, motherfucker, dickhead, jackass, prick, cunt, disgusting, gross, nasty, creepy, dirty, smelly, freak, weirdo, whore, skank, hoe, tramp, rude, arrogant, selfish, toxic, annoying, evil, crazy, insane, worthless, lowlife, failure, leech, clown",
+            "email_content": "{User}, hello,\nOur system has detected {number} negative posts on your fan page {Fan Page}. Please review the posts below immediately:\n\n{Post List}\n\nFor more information, please check the system.\nThank you for using Social Super Manager.",
+            "dialog_1": "Email format is invalid or empty.",
+            "dialog_2": "Are you sure you want to subscribe to monitor this fan page?",
+            "dialog_3": "Subscription successful",
+            "dialog_4": "This fan page has already been subscribed",
+            "dialog_5": "Status updated successfully",
+            "dialog_6": "Delete Completed",
+            "dialog_7": "The email content must include {使用者}、{粉絲團}、{則數}、{貼文列表}",
+            "dialog_8": "Updated"
+        },
+        "history": {
+            "title": "Fan Page Monitoring List",
+            "subtitle": "Track previously-monitored fan pages"
+        },
+        "robot": {
+            "intro": "Stay on top of negative activity on your fan page with instant email alerts"
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Keep track of negative posts on your fan page and receive immediate email notifications.</p>",
+            "step2": "<p class=\"center_\">Select your fan page name</p>",
+            "step3": "<p>Set the email address to receive notifications at. After clicking Confirm, the email will be locked in as the designated inbox.</p>",
+            "step4": "<p class=\"center_\">Customize the template used for alert emails</p>",
+            "step5": "<p class=\"center_\">Define your own negative or sensitive keywords; alerts will be triggered when these appear in fan page comments</p>"
+        }
+    },
+     "textCloud": {
+        "title": "Interactive Word Cloud",
+        "subtitle": "Analyze <span class=\"hight_light\">the most frequently appearing words</span> in fanpage comments.",
+         "field": {
+            "pagename_select_text": "Select your fanpage name",
+            "by_posts": "Analyze by posts",
+            "by_date": "Analyze by date",
+            "dialog_1": "The number of posts must be between 1 and 500.",
+            "dialog_2": "The post has no related comments."
+        },
+        "robot": {
+            "intro": "Explore the words your followers say the most to uncover what truly matters to them."
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Analyze fan comments to find the most frequently used words.</p>",
+            "step2": "<p class=\"center_\">Select your fanpage name</p>",
+            "step3": "<p>Select analysis by date or by number of posts<br>Date: Set the desired analysis period</p>",
+            "step4": "<p>Select analysis by date or by number of posts<br>Number of posts: Analyze based on a specified number of recent posts published on the fan page</p>",
+            "step5": "<p>You can set your own keywords to filter, remove meaningless content, and avoid affecting the analysis results.</p>",
+            "step6": "<p class=\"center_\">Click any keyword<br>to view the commenter's username and comment content.</p>",
+            "step7": "<p class=\"center_\">Click \"Confirm\" to start analysis</p>"
+        },
+        "result": {
+            "title": "'s interactive word cloud",
+             "field": {
+                "keyword_filter": "Keywords to filter",
+                "keyword_filter_2": "(separated by commas)",
+                "keyword_filter_tooltips": "Removing meaningless words can prevent them from affecting the analysis results and help generate more accurate fan insights.",
+                "keyword": "Keyword",
+                "count": "Word Frequency",
+                "total_": "has a total of",
+                "comments": "comments"
+            }
+        }
+    },
+    "anaTop": {
+        "title": "Domestic & Global TOP",
+        "subtitle": "Analyze competitors to uncover <span class=\"hight_light\">audience preferences and behaviors</span> in your industry.",
+        "field": {
+            "compare_period": "Comparison Period",
+            "country_input": "Select Country",
+            "industy_input": "Select Industry",
+            "dialog_1": "No data available for this period."
+        },
+        "robot": {
+            "intro": "Identify what your target audience cares about by reviewing the most engaging posts from similar brands, both locally and globally."
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Discover your audience’s interests and behavior by exploring top engaging posts from similar industries around the world.</p>",
+            "step2": "<p class=\"center_\">Set the time period you’d like to compare</p>",
+            "step3": "<p class=\"center_\">Select the country and industry you want to explore. In addition to Taiwan, other countries are also available to explore.</p>",
+            "step4": "<p class=\"center_\">Click to start analysis</p>"
+        },
+        "result": {
+            "title": "Trending Posts",
+            "subtitle": "Gain insights through competitor analysis to understand <span class=\"hight_light\">the habits and preferences of the same industry's target audience</span>",
+            "field": {
+                "interact_rate": "Engagement Rate",
+                "interact": "Engagements",
+                "reactions": "Reactions",
+                "comments": "Comments",
+                "shares": "Shares"
+            }
+        }
+    },
+    "audienceAnalysis": {
+        "title": "Audience Analysis",
+        "subtitle": "Check if your current audience matches your  <span class=\"hight_light\">target customers</span>.",
+        "field": {
+            "pagename_select_text": "Select or enter a fanpage"
+        },
+        "robot": {
+            "intro": "Make sure you’re reaching the right target audience. This tool analyzes key metrics such as reach, age & gender distribution, city and country breakdowns, preferred language, and more."
+        },
+        "tutorial": {
+            "step1": "<p class=\"center_\">Verify whether your target audience (TA) aligns with your actual fan demographics, including age, gender, and reach performance.</p>",
+            "step2": "<p class=\"center_\">Select your fanpage</p>",
+            "step3": "<p class=\"center_\">Click \"Confirm\" to start analysis</p>"
+        },
+        "result": {
+            "field": {
+                "followers": " Followers",
+                "people": "People",
+                "city": "City",
+                "country": "Country",
+                "language": "Language",
+                "unit": "Unit",
+                "city_2": "City with the Most Fans",
+                "country_2": "Country with the Most Fans",
+                "language_2": "Most Common Language of Fans",
+                "page_index": "Page Health Index",
+                "page_index_tooltip": "Analyzed using the low, median, and high values of organic reach across public fan pages.",
+                "page_index_subtitle": "Analysis of post organic reach rates over the past month.",
+                "post": "Posts",
+                "followers_2":"Followers",
+                "toal_impressions": "Total Organic Reach",
+                "imperssions_per_post": "Avg. Organic Reach/Post",
+                "impressions": "Organic Reach Rate",
+                "page_index_2": "Health Index",
+                "content_title": "Content Mechanism Preference Analysis",
+                "content_subtitle": "Analysis of interaction rate rankings for different post mechanisms in the past month.",
+                "video": "Video",
+                "photo": "Photo",
+                "text": "Text",
+                "interact_rate":"Engagement Rate",
+                "reactions":"Reactions",
+                "comments":"Comments",
+                "shares":"Shares",
+                "clicks":"Clicks",
+                "video_views":"Video Views",
+                "ranking": "Ranking"
+            }
+        }
+    },
+    "onlineTime": {
+        "title": "Publish Time Analysis",
+        "subtitle": "Discover when your followers are most active so you can confidently <span class=\"hight_light\">post at the perfect time</span>.",
+        "field": {
+            "pagename_select_text": "Select or enter a fanpage"
+        },
+        "robot": {
+            "intro": "Understand when your audience is most active to optimize your posting schedule and improve engagement."
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">Learn when your fans are most active and identify the best times to post.</p>",
+            "step2": "<p class=\"center_\">Select your fanpage</p>",
+            "step3": "<p class=\"center_\">The heatmap shows an analysis of fan online activity over the past month. Darker colors indicate higher activity levels.</p>",
+            "step4": "<p class=\"center_\">Based on fan online activity,<br>the system will identify the 5 best time slots for publishing posts.</p>",
+            "step5": "<p class=\"center_\">Click to start analysis</p>"
+        },
+        "result": {
+            "title": "Heatmap Analysis",
+            "subtitle": "Online Activity in the Past Month",
+            "title_2": "Top 5 Recommended Posting Times",
+            "field": {
+                "week": {
+                    "sun": "Sun",
+                    "mon": "Mon",
+                    "tue": "Tue",
+                    "wed": "Wed",
+                    "thu": "Thu",
+                    "fri": "Fri",
+                    "sat": "Sat"
+                },
+                "comments": "Comments",
+                "week_table_arr": [
+                   "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+                ],
+                "people": " People"
+            }
+        }
+    },
+    "ana": {
+        "title": "Competitor Analysis",
+        "subtitle": "<span class=\"hight_light\">Compare brand performance</span> across competitors and spot areas for improvement.",
+        "field": {
+            "select_category": "Select Industry",
+            "histogram": "Histogram",
+            "line_chart": "Line Chart",
+            "dialog_1": "The data crawling module is running. The query function is temporarily unavailable. Please check back later for the results.",
+            "dialog_2": "Fan pages cannot exceed 10.",
+            "dialog_3": "The fanpage URL should be in the format:",
+            "dialog_4": "There must be more than 1 fanpage.",
+            "dialog_5": "Fanpage URLs cannot be duplicated.",
+            "dialog_6": "Are you sure you want to run a real-time analysis of ",
+            "dialog_7": " ? This process may take anywhere from 10 to 30 minutes!",
+            "dialog_8": "Analysis completed. Please check the analysis records below.",
+            "engagement_rate": "Engagement Rate",
+            "type": "",
+            "analysis_graph": "Graph",
+            "dialog_9": "Please enter a URL",
+            "dialog_10": "Please enter a valid URL",
+            "query_range": "Select a query period",
+            "pagename_select_text": "Select a benchmark fanpage",
+            "enter_custom_page": "Enter a competitor page URL",
+            "add_more_page": "Add More Pages",
+            "benchmark_input_memo": "Set an industry category to enable relevant benchmark comparisons",
+            "start_btn": "Submit",
+            "dialog_11": "Are you sure you want to delete this competitor module?",
+            "dialog_12": "Are you sure you want to delete this competitor module's fanpage named "
+        },
+        "robot": {
+            "intro": "Get a clear view of how your brand compares to competitors by analyzing key performance indicators such as response rate, number of likes, comments, and total posts.",
+            "intro_2" : "Helps you understand the gap between your brand and the industry average: through indicators such as benchmark engagement rate, engagements, and followers."
+        },
+        "tutorial": {
+           "step1": "<p class=\"center_\">Get a clearer view of how your brand stacks up against competitors.</p>",
+            "step2": "<p class=\"center_\">See how your brand compares with the industry benchmark</p>",
+            "step3": "<p class=\"center_\">Set the time period you'd like to compare</p>",
+            "step4": "<p class=\"center_\">Set the time period you'd like to view</p>",
+            "step5": "<p class=\"center_\">Select the industry category you'd like to view</p>",
+            "step6": "<p class=\"center_\">Select the country you'd like to view</p>",
+            "step7": "<p class=\"center_\">Select the reference fan page</p>",
+            "step8": "<p class=\"center_\">Select your fan page and enter the URLs of competitor fan pages you want to compare to. You must enter at least one, but you can add more competitors for comparison.</p>",
+            "step9": "<p class=\"\">Select the industry category</p>",
+            "step10": "<p class=\"center_\">The heatmap will display<br>the fan online activity analysis over the past month.<br>Darker colors indicate higher activity</p>",
+            "step11": "<p class=\"center_\">You can set the chart display<br>as either a histogram or line chart</p>",
+            "step12": "<p class=\"center_\">Below the analysis results,<br>a line chart will show a comparison<br>between your fan page engagement rate and the industry average</p>",
+            "step13": "<p class=\"center_\">Click Submit to start analysis</p>",
+            "step14": "<p class=\"\">Click Start Analysis</p>"
+        },
+        "history": {
+            "title": "Records",
+            "field": {
+                "title": "Fanpage Group",
+                "type": "Type",
+                "date_": "Created Time"
+            }
+        },
+        "result": {
+            "field": {
+                "index_page": "Index Fanpage",
+                "add_competitors": "Add a competitor fanpage",
+                "comparison_period": "Comparison Period",
+                "pagename": "Fanpage",
+                "engagement_rate":"Response Rate",
+                "followers": "Followers",
+                "engagement": "Responses",
+                "posts": "Posts",
+                "f_2_c": "Response Rate = (Reactions + Comments + Shares + Video Views × 0.3) / Posts / Followers",
+                "f_3_c": "Response Rate = Reactions + Comments + Shares",
+                "f_4": "Response Rate % = (Responses ÷ Posts ÷ Followers × 100%)"
+            },
+            "title": "Analysis Result Chart",
+            "title_2": "Industry Benchmark Chart",
+            "title_3": "Industry Benchmark",
+            "analysis_period": "Analysis Period"
+        }
+    },
+    "brenchmark": {
+        "title": "Industry Benchmark Comparison",
+        "subtitle": "Explore <span class=\"hight_light\">industry benchmarks</span> and get a clear picture of market trends.",
+        "field": {
+            "query_range": "Select a query period",
+            "select_category": "Select Industry",
+            "select_country": "Select Country",
+            "pagename_select_text": "Select a benchmark fanpage"
+        },
+        "robot": {
+
+        },
+        "tutorial": {
+
+        },
+        "result": {
+
+        }
+    },
+    "atm": {
+        "title": "Facebook Page Value ATM",
+        "subtitle": "Estimate your page value with the ATM and <span class=\"hight_light\">uncover how your brand stacks up</span>.",
+        "field": {
+            "dialog_1": "Fan pages cannot exceed 5.",
+            "dialog_3": "The fanpage URL should be in the format:",
+            "dialog_4": "There must be more than 1 fanpage.",
+            "dialog_5": "Fanpage URLs cannot be duplicated.",
+            "dialog_6": "Are you sure you want to run a real-time analysis of ",
+            "dialog_7": " ? This process may take anywhere from 10 to 30 minutes!",
+            "pagename_select_text": "Select a benchmark fanpage",
+            "pagename_select_text_c": "Fan pages cannot exceed 5.",
+            "add_more_page": "Add More Pages"
+        },
+        "robot": {
+            "intro": "Helps you calculate the 'Fanpage Value' in monetary terms: through a 'Value Detail Table' comparing your fan page with competitors, analyzed using key influence metrics such as fan count, reactions, comments, and shares."
+        },
+        "tutorial": {
+            "step1": "<p class=\"\">Helps you understand when your fans are online and analyze the best times to publish posts</p>",
+            "step2": "<p class=\"center_\">Select or enter your fan page,<br>and enter the competitor fan page URLs you want to compare<br><br>At least one competitor is required,<br>but you can add multiple fan pages for comparison</p>",
+            "step3": "<p class=\"\">The analysis results will display a value detail table of your fan page and competitor fan pages over the past month, including metrics such as fan count, reactions, comments, shares, and total present value</p>",
+            "step4": "<p class=\"center_\">Click Confirm to start the analysis</p>"
+        },
+        "result": {
+            "field": {
+                "dialog_1": "Are you sure you want to delete this analysis record?",
+                "weight": "Weight",
+                "followers": "Followers",
+                "reactions": "Reactions",
+                "comments": "Comments",
+                "shares": "Shares",
+                "current_value": "Current Value",
+                "ranking": "Ranking",
+                "dialog_2": "The data crawling module is running. The query function is temporarily unavailable. Please check back later for the results.",
+                "dialog_3": "Analysis completed. Please check the analysis records below.",
+                "dialog_4": "This data record already exists in the history.",
+                "dialog_5": "The <span class=\"_highlight\">storage limit of 10 records</span> has been reached. Please delete at least one previous record <span class=\"small_highlight\">(it is recommended to download the CSV file before deletion)</span>. If no record is deleted, the last one will be automatically removed.<br><br>Do you want to continue saving?",
+                "dialog_6": "Are you sure you want to save this record?",
+                "value": " Value"
+            },
+            "title": "Value Detail Table for the Past Month",
+            "query_again": "Query Again"
+        },
+        "history": {
+            "title": "Records of Previous Analyses",
+            "subtitle": "View previously analyzed fan page values",
+            "pagename": "Page Name",
+            "analysis": "Created Time",
+            "query_btn": "View"
+        }
+    },
+    "aboutus": {
+        "title": "Setting",
+        "field": {
+            "my_plan": "My Plan",
+            "current_plan": "Current Plan",
+            "plan_features": "Plan Features",
+            "plan_expiry": "Plan Expiration Date",
+            "change_plan_btn": "Change Plan",
+            "mgm_btn": "Earn $400",
+            "plan_intro": "Plan Introduction",
+            "renew_btn": "Renew",
+            "linked_fanpage_title": "Connected Fanpages",
+            "manage_pages_btn": "Manage Fanpages",
+            "delete_user": "Delete Account",
+            "contact_": "Contact Information",
+            "expired": "Expired",
+            "days": " days",
+            "remain": "Remaining ",
+            "free_unitl": "Free Trial Until ",
+            "free_until_2": " ,then switch to",
+            "after_plan": "After this plan ends, it will continue as ",
+            "after_plan_2": "valid Until"
+        },
+        "fanpage_management_modal": {
+            "title" : "Selecy pages you'd like to connect"
+        },
+        "basic_info_container": {
+            "title": "Basic Information",
+            "email_reg": "Email",
+            "contact_method": "Phone",
+            "change": "Edit",
+            "create": "Add",
+            "paid_setting": "Billing Settings",
+            "cradit_card": "Payment Card Number",
+            "address": "Billing Address",
+            "company_no": "Business Registration Number",
+            "paid_view_btn": "View Invoice",
+            "email_for_invoice": "Billing Email",
+            "dialog_1": "Please add a credit card in 'Credit Card Management'",
+            "dialog_2": "Address not set",
+            "select_": "Please select",
+            "dialog_3": "Business Registration Number not set"
+        },
+        "change_success": "Updated",
+        "levelTextArr": [
+            "Free Plan",
+            "Basic Plan",
+            "Pro Plan",
+            "Premium Plan",
+            "Free Trial Plan",
+            "1-Year Basic Plan",
+            "1-Year Pro Plan",
+            "1-Year Premium Plan"
+        ],
+        "payment_success": "Payment Successful",
+        "payment_list_container": {
+            "title": "Invoice List",
+            "field": {
+                "item": "Item",
+                "item_no": "Order Number",
+                "amount": "Amount",
+                "credit_card": "Credit Card Number",
+                "invoice_no": "Invoice Number",
+                "payment_time": "Payment Time"
+            }
+        },
+        "feature_video_title": "Feature Introduction Video",
+        "confirm_delete": "Are you sure you want to delete this account? Once deleted, all data will be permanently irrecoverable!"
+    },
+    "level_intro": {
+        "mgm_float": "Earn<br>$400",
+        "buy_now_btn": "Buy Now",
+        "connect_page_text": "Unable to link fan page",
+        "connect_page_text_2": "Limit:",
+        "connect_page_text_3": "fan pages",
+        "o_p": "Price:",
+        "field": {
+            "dialog_1": "Unable to change, the current plan has not yet expired",
+            "dialog_2": "You are currently using the trial version",
+            "dialog_3": "You can only downgrade to the monthly plan within 10 days before expiration",
+            "modal": {
+                "dialog_1": "You have",
+                "dialog_2": "remaining",
+                "dialog_3": "days of refund $",
+                "dialog_4": ", which will be deducted from the new plan",
+                "dialog_5": "cost $",
+                "dialog_6": ". After deduction, the payment amount will be $",
+                "dialog_7": "$0 (No refund will be issued if the refund amount exceeds the subscription fee)",
+                "dialog_8": ""
+            }
+        }
+    }
+}
