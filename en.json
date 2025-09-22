@@ -121,6 +121,34 @@
             "Southeast Asia (New Southbound)": "sa",
             "United Kingdom": "gb",
             "Europe": "eu"
+        },
+        "login_required": "",
+        "login": "Login"
+    },
+    "components": {
+        "changeFansBtn": {
+            "btn_text": "Connect another fanpage"
+        },
+        "guidedTour": {
+            "yes": "Yes",
+            "no": "No",
+            "video": {
+                "title": "Would you like to watch the guided tutorial?"
+            },
+            "tutorial_label": "Guided Tutorial",
+            "video_label": "Tutorial Video"
+        },
+         "robot": {
+            "hide_kerker": "Hide Kerker"
+        },
+        "vueDatePicker": {
+            "period_limit_text": "Query limited to 3 months"
+        },
+        "programInformation": {
+            "levelTextArr": ["Free Plan", "Basic Plan", "Pro Plan", "Premium Plan", "Free Trial"],
+            "additionalText": "Or feel free to continue using the free feature above:<br/>Community Leaderboard",
+            "indexCommonDialogText_1": "Your plan has expired.<br/>Please renew to continue using. ",
+            "indexCommonDialogText_2": "Your trial has expired.<br/>Please consider upgrading to a paid plan."
         }
     },
     "unloginHeader": {
@@ -151,8 +179,8 @@
         },
         "login_register": "Login / Sign Up",
         "kerker": {
-            "show_kerker": "Show ㄎㄎ",
-            "hide_kerker": "Hide ㄎㄎ"
+            "show_kerker": "Show Kerker",
+            "hide_kerker": "Hide Kerker"
         },
         "dashboard": "Dashboard"
     },
@@ -675,6 +703,20 @@
         },
         "robot": {
             "intro": "Understand the industry's social media influence in the local market through the follower rankings of industry fan pages."
+        },
+        "query_form": {
+            "title": "Search Fanpage Ranking",
+            "url_input": "Enter Fanpage URL",
+            "dialog_1": "The URL cannot be empty",
+            "dialog_2": "Please enter a valid Facebook Page URL format",
+            "dialog_3": "Your fanpage is not on the leaderboard yet. Would you like to add it?",
+            "dialog_4": "This fanpage is already on the leaderboard",
+            "dialog_4_1": ", this fan page is currently ranked ",
+            "dialog_4_2": "",
+            "dialog_4_3": " in follower count under ",
+            "dialog_4_4": ".",
+            "dialog_4_5": "The fan page data is already in the database. Ranking is being calculated, please try again in a few days.",
+            "dialog_5": "System error. Please try again later"
         }
     },
     "topInteractRate": {
@@ -1152,14 +1194,14 @@
             "edit_2_btn": "Edit Negative Keywords",
             "edit_2_label": "[Customize the negative keywords to detect] If any of your comments contain the following “negative keywords,” separate with commas",
             "nevative_words": "asshole, jerk, bitch, slut, idiot, parasite, bastard, filthy thing, eat shit, eat crap, vulgar, psycho, rotten, trash, ugly, miserable, stupid, dumb, moron, fool, loser, useless, pathetic, brainless, fuck, fucker, motherfucker, dickhead, jackass, prick, cunt, disgusting, gross, nasty, creepy, dirty, smelly, freak, weirdo, whore, skank, hoe, tramp, rude, arrogant, selfish, toxic, annoying, evil, crazy, insane, worthless, lowlife, failure, leech, clown",
-            "email_content": "{User}, hello,\nOur system has detected {number} negative posts on your fan page {Fan Page}. Please review the posts below immediately:\n\n{Post List}\n\nFor more information, please check the system.\nThank you for using Social Super Manager.",
+            "email_content": " USER , hello,\nOur system has detected  NUMBER  negative posts on your fan page  FANPAGE . Please review the posts below immediately:\n\n POSTLIST \n\nFor more information, please check the system.\nThank you for using Social Super Manager.",
             "dialog_1": "Email format is invalid or empty.",
             "dialog_2": "Are you sure you want to subscribe to monitor this fan page?",
             "dialog_3": "Subscription successful",
             "dialog_4": "This fan page has already been subscribed",
             "dialog_5": "Status updated successfully",
             "dialog_6": "Delete Completed",
-            "dialog_7": "The email content must include {使用者}、{粉絲團}、{則數}、{貼文列表}",
+            "dialog_7": "The email content must include  USER 、 FANPAGE 、 NUMBER 、 POSTLIST ",
             "dialog_8": "Updated"
         },
         "history": {
@@ -1497,10 +1539,17 @@
             "free_unitl": "Free Trial Until ",
             "free_until_2": " ,then switch to",
             "after_plan": "After this plan ends, it will continue as ",
-            "after_plan_2": "valid Until"
+            "after_plan_2": "valid Until",
+            "dialog_1": "Unable to change, the previous plan has not yet expired",
+            "dialog_2": "Are you sure you want to purchase a 1-month license for this version? Your ",
+            "dialog_3": " plan expiration date will be extended to ",
+            "dialog_4": "! Reminder: Please make sure to fill in your business registration number in the billing settings in advance to facilitate invoice issuance!",
+            "dialog_5": "Unable to renew, the previous version has not yet expired",
+            "redeemable_credit": "Redeemable Science Credits",
+            "redeem": "Redeem"
         },
         "fanpage_management_modal": {
-            "title" : "Selecy pages you'd like to connect"
+            "title" : "Please select the fan pages to analyze (up to 5)"
         },
         "basic_info_container": {
             "title": "Basic Information",
@@ -1517,7 +1566,10 @@
             "dialog_1": "Please add a credit card in 'Credit Card Management'",
             "dialog_2": "Address not set",
             "select_": "Please select",
-            "dialog_3": "Business Registration Number not set"
+            "dialog_3": "Business Registration Number not set",
+            "feedback": "Feedback",
+            "dialog_4": "Please provide your feedback",
+            "dialog_5": "We've received your feedback. Your valuable input will be our best reference for improvements!"
         },
         "change_success": "Updated",
         "levelTextArr": [
@@ -1539,11 +1591,15 @@
                 "amount": "Amount",
                 "credit_card": "Credit Card Number",
                 "invoice_no": "Invoice Number",
+                "redeem": "Redeem",
                 "payment_time": "Payment Time"
             }
         },
         "feature_video_title": "Feature Introduction Video",
-        "confirm_delete": "Are you sure you want to delete this account? Once deleted, all data will be permanently irrecoverable!"
+        "confirm_delete": "Are you sure you want to delete this account? Once deleted, all data will be permanently irrecoverable!",
+        "robot": {
+            "intro": "Buy Now to experience advanced analytics features!<br>Select the plan you want to purchase and click 'Buy Now'.<br>Or click 'Refer & Earn $400' above to invite friends and earn Science Credits together."
+        }
     },
     "level_intro": {
         "mgm_float": "Earn<br>$400",
@@ -1564,8 +1620,123 @@
                 "dialog_5": "cost $",
                 "dialog_6": ". After deduction, the payment amount will be $",
                 "dialog_7": "$0 (No refund will be issued if the refund amount exceeds the subscription fee)",
-                "dialog_8": ""
+                "dialog_8": "",
+                "dialog_9": "Your",
+                "dialog_10": "plan will expire on",
+                "dialog_11": ". Please take note and confirm the following details:",
+                "dialog_12": "Please check to agree to the terms above",
+                "dialog_13": "Please enter a contact phone number",
+                "dialog_14": "Invalid phone number format",
+                "dialog_15": "Please enter an invoice email address",
+                "dialog_16": "Invalid invoice email format",
+                "dialog_17": "Please enter a company registration number",
+                "dialog_18": "Invalid company registration number format",
+                "title_1": "Confirm purchase of the \"",
+                "title_2": "\" license?",
+                "phone": "Contact Method",
+                "email_": "Invoice Email Address",
+                "company_no": "Business Registration Number",
+                "c_1": "Upgrade Plan Discount & Refund Policy",
+                "c_2": "Upgrade Discount Calculation: <ul><li>If the user chooses to upgrade the plan, the remaining days of the original plan will be proportionally deducted from the upgrade fee, up to the full cost of the new plan.</li><li>If the discount amount includes decimals, it will be truncated (rounded down) without rounding up.</li></ul>",
+                "c_3": "Refund Policy: <ul><li>Payments already made (including those offset with Science Credits) are non-refundable. Please confirm before proceeding with the upgrade.</li></ul>",
+                "c_4": "Other Upgrade Rules: <ul><li>Other upgrade conditions and related rules are subject to platform announcements or customer service explanations.</li></ul>",
+                "agree_": "I have read and agree to the above terms",
+                "yes": "Yes",
+                "no": "No",
+                "use_science_credit": "Use Science Credits",
+                "available_sc": "Available ",
+                "available_sc_2": " up to ",
+                "item": {
+                    "product": "Product Name",
+                    "ssm": "Social Super Manager ",
+                    "price": "Price",
+                    "remain": "Remaining ",
+                    "payment": "Total"
+                }
             }
+        },
+        "robot": {
+            "intro": "Buy Now to experience advanced analytics features!<br>Select the plan you want to purchase and click 'Buy Now'.<br>Or click 'Refer & Earn $400' above to invite friends and earn Science Credits together."
+        }
+     },
+    
+    "friends": {
+        "field":{
+            "share_input_placeholder": "Personal Referral Link"
+        },
+        "banner": {
+            "topTitle": "Referral Rewards",
+            "topTitle_2": "Earn up to $400 Science Credits",
+            "title1": "Friend Referral Squad",
+            "title2": "Science Credits",
+            "title2Light": "Double Get",
+            "comment": "Earn $50 for every friend who successfully registers — the more you refer, the more you earn!",
+            "btnInvite": "Invite Now",
+            "btnDetail": "See event details for more information."
+        },
+        "invite": {
+            "title": "Choose how you want to send the invitation",
+            "shareLink": "Share your invitation link",
+            "shareEmail": "Share your invitation email",
+            "placeholderLink": "Personal Referral Link",
+            "placeholderEmail": "Enter friend's email",
+            "btnCopy": "Copy",
+            "btnSend": "Send",
+            "commentEmail": "*You can enter multiple email addresses, separated by spaces.",
+            "shareTo": "Share to"
+        },
+        "steps": {
+            "title": "Complete the referral in 3 easy steps!",
+            "step1Title": "Send the Invitation",
+            "step1Content": "Copy your referral link, or enter your friend's email, and send with one click!",
+            "step2Title": "Friend Registers Successfully",
+            "step2Content": "Once your friend registers, the referral is considered valid!",
+            "step3Title": "Earn Rewards Together!",
+            "step3Content": "Referrer earns Science Credits easily, friend enjoys a free trial of the Premium Plan!"
+        },
+        "progress": {
+            "title": "Referral Progress",
+            "invite": "Number of Referrals",
+            "reward": "Total Rewards",
+            "friends": [
+                "1 Friend",
+                "2 Friends",
+                "3 Friends",
+                "4 Friends",
+                "5 Friends"
+            ]
+        },
+        "stat": {
+            "invited": "Number of Friends Invited",
+            "completed": "Number of Completed Registrations",
+            "credits": "Total Science Credits"
+        },
+        "faqTitle": "FAQ",
+        "faq": {
+            "q1": "What tasks must my friend complete for the referral to count as successful?",
+            "a1": "Your friend must register using your referral link and complete account binding (including fan pages). Once completed, the referral is considered successful. You will receive NT$50 Science Credits per referral. The more you refer, the more you earn!",
+            "q2": "When will I receive the referral reward?",
+            "a2": "After completion, the referrer will receive Science Credits within 7 business days.",
+            "q3": "When can the referred friend start using the Premium Plan?",
+            "highlightNewUser": "New users",
+            "a3": " can activate a 1-month Premium trial immediately after registration, with no payment required.",
+            "q4": "Are there additional rewards for referring more friends?",
+            "a4": "Yes! For each successful referral, you'll receive NT$50 Science Credits. By inviting up to 5 friends, you can earn a maximum of NT$400 Science Credits.",
+            "q5": "What if my friend forgets to use my referral link?",
+            "a5": "Unfortunately, the system cannot log the referral without the referral link. Please remind your friends to register using your unique referral link!"
+        },
+        "disclaimer": {
+            "title": "Disclaimer & Notes",
+            "list": [
+                "This event only counts as a valid referral when registration is completed using the referral code or referral link provided on this page, and the account is successfully bound (including fan pages). Registrations outside this process will not be eligible for rewards.",
+                "If the referred friend fails to complete account binding, registers multiple times, uses fake accounts, or engages in fraudulent/violating activities (including but not limited to false identities, account farming, etc.), the referral record will be invalid and the referrer will not be eligible for rewards.",
+                "To ensure fairness, the platform reserves the right to review and cancel abnormal referral records, including but not limited to non-genuine users, malicious activity, or fraudulent behavior, and may suspend or terminate the eligibility of related accounts.",
+                "Science Credits and trial privileges obtained through referrals are non-transferable, non-redeemable for cash, and cannot be resold, transferred, or shared. They may only be used by the referrer under their own account.",
+                "If the referred friend does not register through the unique referral code or referral link, the referral will not be counted, and the system cannot issue rewards or provide manual adjustments afterward.",
+                "Science Credits are only applicable to accounts bound to a Facebook fan page. If no fan page is bound, the accumulated Science Credits cannot be used.",
+                "Each account can earn a maximum of NT$400 Science Credits. Even if additional referrals are made, the reward cap cannot be exceeded.",
+                "The organizer (Science Editor Hero) reserves the right to adjust, suspend, or terminate the event at any time, and to amend the referral reward rules. In case of disputes, the organizer retains the final interpretation rights. All updates will be announced on this page without further individual notice."
+            ]
         }
     }
 }
